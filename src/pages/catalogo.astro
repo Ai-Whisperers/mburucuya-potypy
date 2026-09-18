@@ -116,9 +116,7 @@ const brands = catalog.brands.filter((b) => !['testers', 'kits'].includes(b.slug
       const meta = `<span class="size">${p.size_ml ? p.size_ml + ' ml' : ''}</span>${p.size_ml ? '<span class="dot">·</span>' : ''}<span class="gender">${genderLabel(p.gender)}</span>`;
       const priceTxt = 'Gs ' + p.retail_price_gs.toLocaleString('es-PY');
       const imgSrc = esc(p.image || '');
-      const img = imgSrc.startsWith('data:image/svg')
-        ? imgSrc
-        : `<img src="${imgSrc}" alt="${cleaned}" loading="lazy" />`;
+      const img = `<img src="${imgSrc}" alt="${cleaned}" loading="lazy" />`;
       const waText = encodeURIComponent(`Hola Mburucuyá Poty! Me interesa: ${cleaned}${p.size_ml ? ' (' + p.size_ml + 'ml)' : ''} — Gs ${p.retail_price_gs.toLocaleString('es-PY')}`);
       return `
         <article class="product-card">
