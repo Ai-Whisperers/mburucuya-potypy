@@ -60,7 +60,7 @@ h3 { font-size: 1.25rem; }
 }
 .brand-link { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; }
 .brand-link:hover { text-decoration: none; }
-.brand-link img { height: 48px; width: 48px; }
+.brand-link img { height: 56px; width: 56px; }
 .brand-link .wordmark {
   font-family: var(--font-serif);
   font-weight: 700;
@@ -231,12 +231,12 @@ h3 { font-size: 1.25rem; }
   margin-bottom: 0.3rem;
 }
 .product-card .name {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-weight: 600;
-  font-size: 1.02rem;
+  font-size: 0.95rem;
   color: var(--color-primary);
   margin-bottom: 0.3rem;
-  line-height: 1.25;
+  line-height: 1.3;
   flex-grow: 1;
 }
 .product-card .size {
