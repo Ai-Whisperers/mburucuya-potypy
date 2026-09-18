@@ -1,0 +1,88 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductCard from '../components/ProductCard.astro';
+import catalog from '../../data/catalog-public.json';
+
+const url = Astro.url;
+const search = url.searchParams.get('q')?.toLowerCase() ?? '';
+const brand = url.searchParams.get('brand') ?? '';
+const gender = url.searchParams.get('gender') ?? '';
+const category = url.searchParams.get('category') ?? '';
+const sort = url.searchParams.get('sort') ?? 'name';
+
+let products = [...catalog.products];
+if (search) {
+  products = products.filter((p) =>
+    p.name.toLowerCase().includes(search) || p.brand.toLowerCase().includes(search)
+  );
+}
+if (brand) products = products.filter((p) => p.brand_slug === brand);
+if (gender) products = products.filter((p) => p.gender === gender);
+if (category) products = products.filter((p) => p.category === category);
+
+if (sort === 'price-asc') products.sort((a, b) => a.retail_price_gs - b.retail_price_gs);
+else if (sort === 'price-desc') products.sort((a, b) => b.retail_price_gs - a.retail_price_gs);
+else products.sort((a, b) => a.name.localeCompare(b.name));
+
+const brandsTop = catalog.brands.slice(0, 50); // most-populated first
+const allBrands = catalog.brands;
+---
+<Layout title="Catálogo completo" description="Todos nuestros perfumes: originales e inspirados. Filtrá por marca, género o tamaño.">
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Catálogo completo</h2>
+        <p>{products.length} perfumes · Encontrá tu próxima fragancia</p>
+      </div>
+
+      <form class="filters" method="get">
+        <input type="search" name="q" placeholder="Buscar perfume o marca…" value={search} />
+        <select name="category">
+          <option value="">Todas las categorías</option>
+          {catalog.categories.map((c) => (
+            <option value={c.slug} selected={category === c.slug}>{c.name}</option>
+          ))}
+        </select>
+        <select name="gender">
+          <option value="">Todos los géneros</option>
+          <option value="femme" selected={gender === 'femme'}>Mujer</option>
+          <option value="homme" selected={gender === 'homme'}>Hombre</option>
+          <option value="unisex" selected={gender === 'unisex'}>Unisex</option>
+        </select>
+        <select name="brand">
+          <option value="">Todas las marcas</option>
+          {allBrands.map((b) => (
+            <option value={b.slug} selected={brand === b.slug}>{b.name}</option>
+          ))}
+        </select>
+        <input type="hidden" name="sort" value={sort} />
+      </form>
+
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:0.6rem">
+        <div style="font-size:0.88rem;color:var(--color-text-muted)">{products.length} resultados</div>
+        <div style="display:flex;gap:0.4rem;align-items:center;font-size:0.85rem">
+          <span style="color:var(--color-text-muted)">Ordenar:</span>
+          <a href={`?${new URLSearchParams({ ...Object.fromEntries(url.searchParams), sort: 'name' })}`} class={sort === 'name' ? 'btn btn-sm btn-primary' : 'btn btn-sm btn-outline'}>A-Z</a>
+          <a href={`?${new URLSearchParams({ ...Object.fromEntries(url.searchParams), sort: 'price-asc' })}`} class={sort === 'price-asc' ? 'btn btn-sm btn-primary' : 'btn btn-sm btn-outline'}>Precio ↑</a>
+          <a href={`?${new URLSearchParams({ ...Object.fromEntries(url.searchParams), sort: 'price-desc' })}`} class={sort === 'price-desc' ? 'btn btn-sm btn-primary' : 'btn btn-sm btn-outline'}>Precio ↓</a>
+        </div>
+      </div>
+
+      {products.length === 0 ? (
+        <div class="empty">
+          <p>😕 No encontramos perfumes con esos filtros.</p>
+          <a class="btn btn-outline" href="/mburucuya-potypy/catalogo">Limpiar filtros</a>
+        </div>
+      ) : (
+        <div class="product-grid">
+          {products.slice(0, 120).map((p) => <ProductCard product={p} />)}
+        </div>
+      )}
+      {products.length > 120 && (
+        <p style="text-align:center;color:var(--color-text-muted);margin-top:1rem">
+          Mostrando los primeros 120 de {products.length}. Refiná tu búsqueda para ver más.
+        </p>
+      )}
+    </div>
+  </section>
+</Layout>

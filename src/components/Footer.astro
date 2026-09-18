@@ -1,0 +1,31 @@
+---
+import { site } from '../data/site.json';
+const waUrl = `https://wa.me/${site.whatsapp_number}`;
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <h3>{site.name}</h3>
+        <p style="margin-top:0">{site.tagline}</p>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <p style="margin:0.3rem 0">📱 <a href={waUrl} target="_blank" rel="noopener">{site.whatsapp_display}</a></p>
+        <p style="margin:0.3rem 0">📷 <a href={site.instagram_url} target="_blank" rel="noopener">@{site.instagram_handle}</a></p>
+        <p style="margin:0.3rem 0">🚚 {site.shipping}</p>
+      </div>
+      <div>
+        <h3>Cómo comprar</h3>
+        <ol style="margin:0; padding-left:1.1rem; color: rgba(255,255,255,0.85); font-size: 0.9rem">
+          <li>Elegí tus perfumes</li>
+          <li>Enviános el pedido por WhatsApp</li>
+          <li>Te confirmamos stock y envío</li>
+        </ol>
+      </div>
+    </div>
+    <div class="bottom">
+      © {new Date().getFullYear()} {site.name} · Hecho con 💜 en Paraguay
+    </div>
+  </div>
+</footer>

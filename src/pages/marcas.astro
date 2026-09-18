@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import catalog from '../../data/catalog-public.json';
+import { productCountForCategory } from '../lib/catalog';
+
+const brands = catalog.brands;
+---
+<Layout title="Marcas" description="Todas las marcas que distribuimos en Mburucuyá Poty.">
+  <section class="hero" style="padding:2.5rem 0 2rem">
+    <div class="container">
+      <div class="eyebrow">Nuestras casas</div>
+      <h1>Marcas</h1>
+      <p>{brands.length} casas disponibles · Originales y de nicho</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="brand-grid">
+        {brands.map((b) => (
+          <a class="brand-card" href={`/mburucuya-potypy/marca/${b.slug}`}>
+            {b.name}
+            <span class="count">{b.product_count} perfumes</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

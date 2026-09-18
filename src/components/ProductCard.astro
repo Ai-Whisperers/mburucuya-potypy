@@ -1,0 +1,43 @@
+---
+import type { Product } from '../lib/catalog';
+import { formatGs, formatMl, cleanProductName } from '../lib/catalog';
+
+interface Props {
+  product: Product;
+}
+const { product } = Astro.props;
+const cleaned = cleanProductName(product.name);
+const size = product.size_ml ? ` · ${product.size_ml} ml` : '';
+const badge = product.category === 'testers' ? 'TESTER'
+  : product.category === 'kits' ? 'KIT'
+  : product.category === 'nicho-alta-perfumeria' ? 'NICHO'
+  : product.category === 'perfume-infantil' ? 'KIDS'
+  : null;
+---
+<article class="product-card">
+  {badge && <span class="badge">{badge}</span>}
+  <div class="brand">{product.brand}</div>
+  <div class="name">{cleaned}</div>
+  {product.size_ml && <div class="size">{product.size_ml} ml</div>}
+  <div class="price">{formatGs(product.retail_price_gs)} <small>· {product.gender === 'homme' ? 'Hombre' : product.gender === 'femme' ? 'Mujer' : 'Unisex'}</small></div>
+  <div class="actions">
+    <button
+      class="btn btn-primary btn-sm"
+      data-add-to-cart
+      data-id={product.id}
+      data-name={cleaned}
+      data-size={product.size_ml ?? ''}
+      data-price={product.retail_price_gs}
+    >
+      Agregar
+    </button>
+    <a
+      class="btn btn-wa btn-sm"
+      href={`https://wa.me/595985526379?text=${encodeURIComponent(`Hola Mburucuyá Poty! Me interesa: ${cleaned}${size} — Gs ${product.retail_price_gs.toLocaleString('es-PY')}`)}`}
+      target="_blank"
+      rel="noopener"
+    >
+      WhatsApp
+    </a>
+  </div>
+</article>

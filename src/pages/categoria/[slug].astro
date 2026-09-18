@@ -1,0 +1,37 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import catalog from '../../../data/catalog-public.json';
+
+export function getStaticPaths() {
+  return catalog.categories.map((cat) => ({ params: { slug: cat.slug }, props: { cat } }));
+}
+
+const { cat } = Astro.props;
+const products = catalog.products.filter((p) => p.category === cat.slug);
+---
+<Layout title={cat.name} description={cat.desc}>
+  <section class="hero" style="padding:2.5rem 0 2rem">
+    <div class="container">
+      <div class="eyebrow">{cat.icon} Categoría</div>
+      <h1>{cat.name}</h1>
+      <p>{cat.desc} · {products.length} productos</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      {products.length === 0 ? (
+        <div class="empty"><p>Próximamente más perfumes en esta categoría.</p></div>
+      ) : (
+        <div class="product-grid">
+          {products.slice(0, 200).map((p) => <ProductCard product={p} />)}
+        </div>
+      )}
+      {products.length > 200 && (
+        <p style="text-align:center;color:var(--color-text-muted);margin-top:1rem">
+          Mostrando 200 de {products.length}.
+        </p>
+      )}
+    </div>
+  </section>
+</Layout>

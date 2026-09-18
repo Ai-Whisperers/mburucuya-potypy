@@ -1,0 +1,33 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import catalog from '../../../data/catalog-public.json';
+
+export function getStaticPaths() {
+  return catalog.brands.map((b) => ({ params: { slug: b.slug }, props: { brand: b } }));
+}
+
+const { brand } = Astro.props;
+const products = catalog.products.filter((p) => p.brand_slug === brand.slug);
+const cleanedName = brand.name;
+---
+<Layout title={cleanedName} description={`Perfumes ${cleanedName} en Mburucuyá Poty.`}>
+  <section class="hero" style="padding:2.5rem 0 2rem">
+    <div class="container">
+      <div class="eyebrow">Marca</div>
+      <h1>{cleanedName}</h1>
+      <p>{products.length} perfumes disponibles</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      {products.length === 0 ? (
+        <div class="empty"><p>No hay perfumes de esta marca en stock por el momento.</p></div>
+      ) : (
+        <div class="product-grid">
+          {products.map((p) => <ProductCard product={p} />)}
+        </div>
+      )}
+    </div>
+  </section>
+</Layout>

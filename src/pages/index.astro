@@ -1,0 +1,83 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductCard from '../components/ProductCard.astro';
+import catalog from '../../data/catalog-public.json';
+import { productCountForCategory, formatGs } from '../lib/catalog';
+
+const featured = catalog.products.filter((p) => p.featured).slice(0, 12);
+const waUrl = `https://wa.me/595985526379`;
+const catalogUrl = '/mburucuya-potypy/catalogo';
+---
+<Layout>
+  <section class="hero">
+    <div class="container">
+      <div class="eyebrow">Exclusividad hecha flor</div>
+      <h1>Perfumes inspirados y originales para cada momento</h1>
+      <p>Más de {catalog.products.length} fragancias en stock permanente. Hacemos envíos a todo el Paraguay. Pedí por WhatsApp y te lo llevamos a tu casa.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href={catalogUrl}>Ver catálogo completo</a>
+        <a class="btn btn-wa" href={waUrl} target="_blank" rel="noopener">📱 Pedir por WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Explorá por categoría</h2>
+        <p>Elegí el tipo de fragancia que buscás</p>
+      </div>
+      <div class="category-grid">
+        {catalog.categories.map((cat) => (
+          <a class="category-card" href={`/mburucuya-potypy/categoria/${cat.slug}`}>
+            <span class="icon">{cat.icon}</span>
+            <span class="name">{cat.name}</span>
+            <span class="count">{productCountForCategory(catalog, cat.slug)} productos</span>
+            <span class="desc">{cat.desc}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--color-parchment)">
+    <div class="container">
+      <div class="section-title">
+        <h2>Destacados</h2>
+        <p>Nuestra selección de la semana</p>
+      </div>
+      <div class="product-grid">
+        {featured.map((p) => <ProductCard product={p} />)}
+      </div>
+      <div style="text-align:center; margin-top:2rem">
+        <a class="btn btn-outline" href={catalogUrl}>Ver todos los perfumes →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Cómo comprar</h2>
+        <p>Es fácil y rápido</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));gap:1.5rem;text-align:center">
+        <div style="background:var(--color-surface);padding:1.6rem 1rem;border-radius:var(--radius-lg);border:1px solid var(--color-border)">
+          <div style="font-size:2.5rem">1️⃣</div>
+          <h3 style="font-size:1.05rem;margin:0.5rem 0">Elegí</h3>
+          <p style="margin:0;color:var(--color-text-muted);font-size:0.9rem">Agregá los perfumes al carrito o mirá el catálogo completo.</p>
+        </div>
+        <div style="background:var(--color-surface);padding:1.6rem 1rem;border-radius:var(--radius-lg);border:1px solid var(--color-border)">
+          <div style="font-size:2.5rem">2️⃣</div>
+          <h3 style="font-size:1.05rem;margin:0.5rem 0">Enviá</h3>
+          <p style="margin:0;color:var(--color-text-muted);font-size:0.9rem">Mandanos tu pedido por WhatsApp con un solo click.</p>
+        </div>
+        <div style="background:var(--color-surface);padding:1.6rem 1rem;border-radius:var(--radius-lg);border:1px solid var(--color-border)">
+          <div style="font-size:2.5rem">3️⃣</div>
+          <h3 style="font-size:1.05rem;margin:0.5rem 0">Recibí</h3>
+          <p style="margin:0;color:var(--color-text-muted);font-size:0.9rem">Te lo enviamos a cualquier punto del Paraguay.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,22 @@
+---
+import { site } from '../data/site.json';
+const waUrl = `https://wa.me/${site.whatsapp_number}`;
+---
+<header class="site-header">
+  <div class="row">
+    <a href="/mburucuya-potypy/" class="brand-link">
+      <img src="/mburucuya-potypy/assets/logo.svg" alt="Mburucuyá Poty" />
+      <div>
+        <div class="wordmark">Mburucuyá Poty</div>
+        <div class="tagline">Exclusividad hecha flor</div>
+      </div>
+    </a>
+    <nav class="nav-links">
+      <a href="/mburucuya-potypy/" class="nav-text">Inicio</a>
+      <a href="/mburucuya-potypy/catalogo" class="nav-text">Catálogo</a>
+      <a href="/mburucuya-potypy/marcas" class="nav-text">Marcas</a>
+      <a href="/mburucuya-potypy/contacto" class="nav-text">Contacto</a>
+      <a href={waUrl} target="_blank" rel="noopener" class="wa-btn">📱 WhatsApp</a>
+    </nav>
+  </div>
+</header>
