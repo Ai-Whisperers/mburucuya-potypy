@@ -160,6 +160,11 @@
       "product_count": 11
     },
     {
+      "slug": "lattafa",
+      "name": "Lattafa",
+      "product_count": 10
+    },
+    {
       "slug": "britney-fantasy",
       "name": "Britney Fantasy",
       "product_count": 9
@@ -220,6 +225,11 @@
       "product_count": 5
     },
     {
+      "slug": "rasasi",
+      "name": "Rasasi",
+      "product_count": 5
+    },
+    {
       "slug": "adidas",
       "name": "Adidas",
       "product_count": 4
@@ -272,6 +282,16 @@
     {
       "slug": "stella-mccartney",
       "name": "Stella McCartney",
+      "product_count": 3
+    },
+    {
+      "slug": "xerjoff",
+      "name": "Xerjoff",
+      "product_count": 3
+    },
+    {
+      "slug": "rayhaan",
+      "name": "Rayhaan",
       "product_count": 3
     },
     {
@@ -437,6 +457,31 @@
     {
       "slug": "sabrina-carpenter",
       "name": "Sabrina Carpenter",
+      "product_count": 1
+    },
+    {
+      "slug": "afnan",
+      "name": "Afnan",
+      "product_count": 1
+    },
+    {
+      "slug": "byredo",
+      "name": "Byredo",
+      "product_count": 1
+    },
+    {
+      "slug": "nylaa",
+      "name": "NYLAA",
+      "product_count": 1
+    },
+    {
+      "slug": "dumont",
+      "name": "Dumont",
+      "product_count": 1
+    },
+    {
+      "slug": "milestone",
+      "name": "Milestone",
       "product_count": 1
     }
   ],
@@ -1296,7 +1341,7 @@
       "category": "fragancia-unisex",
       "wholesale_price_usd": 68.1,
       "retail_price_gs": 595000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgA%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%232E7D5C%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232E7D5C%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botA%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgA%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botA%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%232E7D5C%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%232E7D5C%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EA%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%232E7D5C%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-armani-acqua-di-gio.jpeg",
       "featured": false
     },
     {
@@ -1452,7 +1497,7 @@
       "category": "fragancia-unisex",
       "wholesale_price_usd": 51.1,
       "retail_price_gs": 475000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgAG%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%235C2E1A%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235C2E1A%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botAG%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgAG%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botAG%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%235C2E1A%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%235C2E1A%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EAG%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%235C2E1A%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-ariana-cloud.jpeg",
       "featured": false
     },
     {
@@ -1725,7 +1770,7 @@
       "category": "nicho-alta-perfumeria",
       "wholesale_price_usd": 89.6,
       "retail_price_gs": 755000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgA%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%233D0A3D%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%233D0A3D%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botA%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%235CC186%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%235CC186%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235CC186%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgA%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botA%29%22%20stroke%3D%22%235CC186%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%235CC186%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%235CC186%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%233D0A3D%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%233D0A3D%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%235CC186%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EA%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%235CC186%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%233D0A3D%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-azzaro-forever-wanted.jpeg",
       "featured": false
     },
     {
@@ -2245,7 +2290,7 @@
       "category": "nicho-alta-perfumeria",
       "wholesale_price_usd": 89.1,
       "retail_price_gs": 750000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgB%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%235C1A5C%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235C1A5C%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botB%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23F6D62F%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23F6D62F%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23F6D62F%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgB%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botB%29%22%20stroke%3D%22%23F6D62F%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23F6D62F%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23F6D62F%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%235C1A5C%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%235C1A5C%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23F6D62F%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EB%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23F6D62F%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%235C1A5C%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-bvlgari-omnia-amethyste.jpeg",
       "featured": false
     },
     {
@@ -2843,7 +2888,7 @@
       "category": "fragancia-unisex",
       "wholesale_price_usd": 20.5,
       "retail_price_gs": 250000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgCK%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%233D0A3D%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%233D0A3D%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botCK%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%235CC186%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%235CC186%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235CC186%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgCK%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botCK%29%22%20stroke%3D%22%235CC186%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%235CC186%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%235CC186%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%233D0A3D%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%233D0A3D%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%235CC186%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3ECK%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%235CC186%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%233D0A3D%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-calvin-klein-ck-be.jpeg",
       "featured": false
     },
     {
@@ -3038,7 +3083,7 @@
       "category": "fragancia-femenina",
       "wholesale_price_usd": 24.13,
       "retail_price_gs": 275000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgCK%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%233D0A3D%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%233D0A3D%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botCK%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%235CC186%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%235CC186%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235CC186%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgCK%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botCK%29%22%20stroke%3D%22%235CC186%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%235CC186%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%235CC186%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%233D0A3D%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%233D0A3D%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%235CC186%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3ECK%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%235CC186%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%233D0A3D%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-calvin-klein-obsession-fem.jpeg",
       "featured": false
     },
     {
@@ -3064,7 +3109,7 @@
       "category": "fragancia-unisex",
       "wholesale_price_usd": 24.0,
       "retail_price_gs": 275000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgCK%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%233D0A3D%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%233D0A3D%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botCK%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%235CC186%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%235CC186%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235CC186%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgCK%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botCK%29%22%20stroke%3D%22%235CC186%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%235CC186%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%235CC186%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%233D0A3D%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%233D0A3D%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%235CC186%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3ECK%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%235CC186%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%233D0A3D%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-calvin-klein-ck-one.jpeg",
       "featured": false
     },
     {
@@ -6457,7 +6502,7 @@
       "category": "fragancia-masculina",
       "wholesale_price_usd": 42.61,
       "retail_price_gs": 410000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgMB%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%232E7D5C%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232E7D5C%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botMB%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgMB%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botMB%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%232E7D5C%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%232E7D5C%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EMB%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%232E7D5C%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-mont-blanc-explorer.jpeg",
       "featured": false
     },
     {
@@ -6574,7 +6619,7 @@
       "category": "fragancia-masculina",
       "wholesale_price_usd": 28.6,
       "retail_price_gs": 310000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgMB%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%232E7D5C%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232E7D5C%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botMB%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgMB%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botMB%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%232E7D5C%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%232E7D5C%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EMB%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%232E7D5C%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-mont-blanc-starwalker.jpeg",
       "featured": false
     },
     {
@@ -9161,7 +9206,7 @@
       "category": "nicho-alta-perfumeria",
       "wholesale_price_usd": 183.1,
       "retail_price_gs": 1435000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgTF%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%235C1A5C%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235C1A5C%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botTF%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23C38AD8%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23C38AD8%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23C38AD8%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgTF%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botTF%29%22%20stroke%3D%22%23C38AD8%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23C38AD8%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23C38AD8%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%235C1A5C%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%235C1A5C%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23C38AD8%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3ETF%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23C38AD8%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%235C1A5C%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-tom-ford-ombre-leather.jpeg",
       "featured": false
     },
     {
@@ -9317,7 +9362,7 @@
       "category": "nicho-alta-perfumeria",
       "wholesale_price_usd": 95.7,
       "retail_price_gs": 800000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgV%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botV%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgV%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botV%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EV%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%231E5C2E%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-valentino-donna-born-in-roma.jpeg",
       "featured": false
     },
     {
@@ -9356,7 +9401,7 @@
       "category": "nicho-alta-perfumeria",
       "wholesale_price_usd": 89.08,
       "retail_price_gs": 750000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgV%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botV%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgV%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botV%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EV%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%231E5C2E%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-valentino-uomo-born-in-roma.jpeg",
       "featured": false
     },
     {
@@ -9408,7 +9453,7 @@
       "category": "nicho-alta-perfumeria",
       "wholesale_price_usd": 113.54,
       "retail_price_gs": 930000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgV%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botV%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgV%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botV%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EV%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%231E5C2E%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-valentino-extradose-femme.jpeg",
       "featured": false
     },
     {
@@ -9499,7 +9544,7 @@
       "category": "fragancia-femenina",
       "wholesale_price_usd": 54.1,
       "retail_price_gs": 495000,
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgV%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botV%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgV%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botV%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EV%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%231E5C2E%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "image": "/mburucuya-potypy/products/santi-versace-dylan-purple.jpeg",
       "featured": true
     },
     {
@@ -9760,6 +9805,357 @@
       "wholesale_price_usd": 107.6,
       "retail_price_gs": 885000,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgY%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230E3B43%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230E3B43%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botY%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23F6D62F%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23F6D62F%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23F6D62F%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgY%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botY%29%22%20stroke%3D%22%23F6D62F%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23F6D62F%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23F6D62F%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%230E3B43%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%230E3B43%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23F6D62F%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EY%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23F6D62F%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%230E3B43%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
+      "featured": false
+    },
+    {
+      "id": "afnan-9pm-edp-100ml",
+      "brand_slug": "afnan",
+      "brand": "Afnan",
+      "name": "9PM EDP 100ml",
+      "size_ml": 100,
+      "gender": "homme",
+      "category": "fragancia-masculina",
+      "wholesale_price_usd": 12.0,
+      "retail_price_gs": 190000,
+      "image": "/mburucuya-potypy/products/santi-afnan-9pm.jpeg",
+      "featured": false
+    },
+    {
+      "id": "lattafa-asad-edp-100ml",
+      "brand_slug": "lattafa",
+      "brand": "Lattafa",
+      "name": "Asad EDP 100ml",
+      "size_ml": 100,
+      "gender": "homme",
+      "category": "fragancia-masculina",
+      "wholesale_price_usd": 11.0,
+      "retail_price_gs": 180000,
+      "image": "/mburucuya-potypy/products/santi-lattafa-asad.jpeg",
+      "featured": false
+    },
+    {
+      "id": "lattafa-asad-bourbon-edp-100ml",
+      "brand_slug": "lattafa",
+      "brand": "Lattafa",
+      "name": "Asad Bourbon EDP 100ml",
+      "size_ml": 100,
+      "gender": "homme",
+      "category": "fragancia-masculina",
+      "wholesale_price_usd": 12.0,
+      "retail_price_gs": 190000,
+      "image": "/mburucuya-potypy/products/santi-lattafa-asad-bourbon.jpeg",
+      "featured": false
+    },
+    {
+      "id": "lattafa-asad-collection-edp-100ml",
+      "brand_slug": "lattafa",
+      "brand": "Lattafa",
+      "name": "Asad Collection EDP 100ml",
+      "size_ml": 100,
+      "gender": "homme",
+      "category": "fragancia-masculina",
+      "wholesale_price_usd": 11.5,
+      "retail_price_gs": 185000,
+      "image": "/mburucuya-potypy/products/santi-lattafa-asad-collection.jpeg",
+      "featured": false
+    },
+    {
+      "id": "lattafa-eau-of-universe-edp-100ml",
+      "brand_slug": "lattafa",
+      "brand": "Lattafa",
+      "name": "Eau of Universe EDP 100ml",
+      "size_ml": 100,
+      "gender": "unisex",
+      "category": "fragancia-unisex",
+      "wholesale_price_usd": 13.0,
+      "retail_price_gs": 195000,
+      "image": "/mburucuya-potypy/products/santi-lattafa-eau-of-universe.jpeg",
+      "featured": false
+    },
+    {
+      "id": "lattafa-layers-of-gold-edp-100ml",
+      "brand_slug": "lattafa",
+      "brand": "Lattafa",
+      "name": "Layers of Gold EDP 100ml",
+      "size_ml": 100,
+      "gender": "unisex",
+      "category": "fragancia-unisex",
+      "wholesale_price_usd": 11.0,
+      "retail_price_gs": 180000,
+      "image": "/mburucuya-potypy/products/santi-lattafa-layers-of-gold.jpeg",
+      "featured": false
+    },
+    {
+      "id": "lattafa-marina-celestia-edp-100ml",
+      "brand_slug": "lattafa",
+      "brand": "Lattafa",
+      "name": "Marina Celestia EDP 100ml",
+      "size_ml": 100,
+      "gender": "femme",
+      "category": "fragancia-femenina",
+      "wholesale_price_usd": 10.5,
+      "retail_price_gs": 175000,
+      "image": "/mburucuya-potypy/products/santi-lattafa-marina-celestia.jpeg",
+      "featured": false
+    },
+    {
+      "id": "lattafa-milk-and-cookies-edp-100ml",
+      "brand_slug": "lattafa",
+      "brand": "Lattafa",
+      "name": "Milk and Cookies EDP 100ml",
+      "size_ml": 100,
+      "gender": "unisex",
+      "category": "fragancia-unisex",
+      "wholesale_price_usd": 10.0,
+      "retail_price_gs": 175000,
+      "image": "/mburucuya-potypy/products/santi-lattafa-milk-and-cookies.jpeg",
+      "featured": false
+    },
+    {
+      "id": "lattafa-no-excuses-edp-100ml",
+      "brand_slug": "lattafa",
+      "brand": "Lattafa",
+      "name": "No Excuses EDP 100ml",
+      "size_ml": 100,
+      "gender": "femme",
+      "category": "fragancia-femenina",
+      "wholesale_price_usd": 10.0,
+      "retail_price_gs": 175000,
+      "image": "/mburucuya-potypy/products/santi-lattafa-no-excuses.jpeg",
+      "featured": false
+    },
+    {
+      "id": "lattafa-pistache-absolu-edp-100ml",
+      "brand_slug": "lattafa",
+      "brand": "Lattafa",
+      "name": "Pistache Absolu EDP 100ml",
+      "size_ml": 100,
+      "gender": "unisex",
+      "category": "fragancia-unisex",
+      "wholesale_price_usd": 11.0,
+      "retail_price_gs": 180000,
+      "image": "/mburucuya-potypy/products/santi-lattafa-pistache-absolu.jpeg",
+      "featured": false
+    },
+    {
+      "id": "lattafa-gift-set-edp-100ml",
+      "brand_slug": "lattafa",
+      "brand": "Lattafa",
+      "name": "Gift Set EDP 100ml",
+      "size_ml": 100,
+      "gender": "unisex",
+      "category": "kits",
+      "wholesale_price_usd": 13.0,
+      "retail_price_gs": 195000,
+      "image": "/mburucuya-potypy/products/santi-lattafa-gift-set.jpeg",
+      "featured": false
+    },
+    {
+      "id": "byredo-blanche-edp-100ml",
+      "brand_slug": "byredo",
+      "brand": "Byredo",
+      "name": "Blanche EDP 100ml",
+      "size_ml": 100,
+      "gender": "unisex",
+      "category": "nicho-alta-perfumeria",
+      "wholesale_price_usd": 78.0,
+      "retail_price_gs": 670000,
+      "image": "/mburucuya-potypy/products/santi-byredo-blanche.jpeg",
+      "featured": false
+    },
+    {
+      "id": "nylaa-drunk-on-roses-edp-100ml",
+      "brand_slug": "nylaa",
+      "brand": "NYLAA",
+      "name": "Drunk on Roses EDP 100ml",
+      "size_ml": 100,
+      "gender": "femme",
+      "category": "fragancia-femenina",
+      "wholesale_price_usd": 11.0,
+      "retail_price_gs": 180000,
+      "image": "/mburucuya-potypy/products/santi-nylaa-drunk-roses.jpeg",
+      "featured": false
+    },
+    {
+      "id": "dumont-nitro-white-edp-100ml",
+      "brand_slug": "dumont",
+      "brand": "Dumont",
+      "name": "Nitro White EDP 100ml",
+      "size_ml": 100,
+      "gender": "homme",
+      "category": "fragancia-masculina",
+      "wholesale_price_usd": 13.0,
+      "retail_price_gs": 195000,
+      "image": "/mburucuya-potypy/products/santi-dumont-nitro-white.jpeg",
+      "featured": false
+    },
+    {
+      "id": "xerjoff-erba-gold-edp-100ml",
+      "brand_slug": "xerjoff",
+      "brand": "Xerjoff",
+      "name": "Erba Gold EDP 100ml",
+      "size_ml": 100,
+      "gender": "unisex",
+      "category": "nicho-alta-perfumeria",
+      "wholesale_price_usd": 110.0,
+      "retail_price_gs": 905000,
+      "image": "/mburucuya-potypy/products/santi-xerjoff-erba-gold.jpeg",
+      "featured": false
+    },
+    {
+      "id": "xerjoff-erba-pura-edp-100ml",
+      "brand_slug": "xerjoff",
+      "brand": "Xerjoff",
+      "name": "Erba Pura EDP 100ml",
+      "size_ml": 100,
+      "gender": "unisex",
+      "category": "nicho-alta-perfumeria",
+      "wholesale_price_usd": 110.0,
+      "retail_price_gs": 905000,
+      "image": "/mburucuya-potypy/products/santi-xerjoff-erba-pura.jpeg",
+      "featured": false
+    },
+    {
+      "id": "xerjoff-torino-21-edp-100ml",
+      "brand_slug": "xerjoff",
+      "brand": "Xerjoff",
+      "name": "Torino 21 EDP 100ml",
+      "size_ml": 100,
+      "gender": "unisex",
+      "category": "nicho-alta-perfumeria",
+      "wholesale_price_usd": 130.0,
+      "retail_price_gs": 1050000,
+      "image": "/mburucuya-potypy/products/santi-xerjoff-torino-21.jpeg",
+      "featured": false
+    },
+    {
+      "id": "rasasi-hawas-edp-100ml",
+      "brand_slug": "rasasi",
+      "brand": "Rasasi",
+      "name": "Hawas EDP 100ml",
+      "size_ml": 100,
+      "gender": "homme",
+      "category": "fragancia-masculina",
+      "wholesale_price_usd": 11.0,
+      "retail_price_gs": 180000,
+      "image": "/mburucuya-potypy/products/santi-rasasi-hawas.jpeg",
+      "featured": false
+    },
+    {
+      "id": "rasasi-hawas-thunder-edp-100ml",
+      "brand_slug": "rasasi",
+      "brand": "Rasasi",
+      "name": "Hawas Thunder EDP 100ml",
+      "size_ml": 100,
+      "gender": "homme",
+      "category": "fragancia-masculina",
+      "wholesale_price_usd": 12.0,
+      "retail_price_gs": 190000,
+      "image": "/mburucuya-potypy/products/santi-rasasi-hawas-thunder.jpeg",
+      "featured": false
+    },
+    {
+      "id": "rasasi-hawas-private-dulce-edp-100ml",
+      "brand_slug": "rasasi",
+      "brand": "Rasasi",
+      "name": "Hawas Private Dulce EDP 100ml",
+      "size_ml": 100,
+      "gender": "homme",
+      "category": "fragancia-masculina",
+      "wholesale_price_usd": 13.0,
+      "retail_price_gs": 195000,
+      "image": "/mburucuya-potypy/products/santi-rasasi-hawas-private-dulce.jpeg",
+      "featured": false
+    },
+    {
+      "id": "rasasi-hawas-private-luceo-edp-100ml",
+      "brand_slug": "rasasi",
+      "brand": "Rasasi",
+      "name": "Hawas Private Luceo EDP 100ml",
+      "size_ml": 100,
+      "gender": "homme",
+      "category": "fragancia-masculina",
+      "wholesale_price_usd": 13.0,
+      "retail_price_gs": 195000,
+      "image": "/mburucuya-potypy/products/santi-rasasi-hawas-private-luceo.jpeg",
+      "featured": false
+    },
+    {
+      "id": "rasasi-hawas-private-terra-edp-100ml",
+      "brand_slug": "rasasi",
+      "brand": "Rasasi",
+      "name": "Hawas Private Terra EDP 100ml",
+      "size_ml": 100,
+      "gender": "homme",
+      "category": "fragancia-masculina",
+      "wholesale_price_usd": 13.0,
+      "retail_price_gs": 195000,
+      "image": "/mburucuya-potypy/products/santi-rasasi-hawas-private-terra.jpeg",
+      "featured": false
+    },
+    {
+      "id": "rayhaan-tropical-vibe-edp-100ml",
+      "brand_slug": "rayhaan",
+      "brand": "Rayhaan",
+      "name": "Tropical Vibe EDP 100ml",
+      "size_ml": 100,
+      "gender": "unisex",
+      "category": "fragancia-unisex",
+      "wholesale_price_usd": 14.0,
+      "retail_price_gs": 200000,
+      "image": "/mburucuya-potypy/products/santi-rayhaan-tropical-vibe.jpeg",
+      "featured": false
+    },
+    {
+      "id": "rayhaan-nocturno-edp-100ml",
+      "brand_slug": "rayhaan",
+      "brand": "Rayhaan",
+      "name": "Nocturno EDP 100ml",
+      "size_ml": 100,
+      "gender": "homme",
+      "category": "fragancia-masculina",
+      "wholesale_price_usd": 14.0,
+      "retail_price_gs": 200000,
+      "image": "/mburucuya-potypy/products/santi-rayhaan-nocturno.jpeg",
+      "featured": false
+    },
+    {
+      "id": "rayhaan-imperial-edp-100ml",
+      "brand_slug": "rayhaan",
+      "brand": "Rayhaan",
+      "name": "Imperial EDP 100ml",
+      "size_ml": 100,
+      "gender": "unisex",
+      "category": "fragancia-unisex",
+      "wholesale_price_usd": 14.0,
+      "retail_price_gs": 200000,
+      "image": "/mburucuya-potypy/products/santi-rayhaan-imperial.jpeg",
+      "featured": false
+    },
+    {
+      "id": "milestone-rodeo-drive-edp-100ml",
+      "brand_slug": "milestone",
+      "brand": "Milestone",
+      "name": "Rodeo Drive EDP 100ml",
+      "size_ml": 100,
+      "gender": "unisex",
+      "category": "fragancia-unisex",
+      "wholesale_price_usd": 12.0,
+      "retail_price_gs": 190000,
+      "image": "/mburucuya-potypy/products/santi-milestone-rodeo-drive.jpeg",
+      "featured": false
+    },
+    {
+      "id": "dior-dior-addict-edt-100ml",
+      "brand_slug": "dior",
+      "brand": "Dior",
+      "name": "Dior Addict EDT 100ml",
+      "size_ml": 100,
+      "gender": "femme",
+      "category": "fragancia-femenina",
+      "wholesale_price_usd": 72.1,
+      "retail_price_gs": 625000,
+      "image": "/mburucuya-potypy/products/santi-dior-addict.jpeg",
       "featured": false
     }
   ]
