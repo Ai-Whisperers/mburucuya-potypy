@@ -16,7 +16,7 @@ const brands = catalog.brands;
   <section class="section">
     <div class="container">
       <div class="brand-grid">
-        {brands.map((b) => (
+        {brands.filter((b) => !['testers', 'kits'].includes(b.slug)).map((b) => (
           <a class="brand-card" href={`/mburucuya-potypy/marca/${b.slug}`}>
             {b.name}
             <span class="count">{b.product_count} perfumes</span>
