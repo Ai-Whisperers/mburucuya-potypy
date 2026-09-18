@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import ProductCard from '../../components/ProductCard.astro';
 import catalog from '../../../data/catalog-public.json';
+import brandLogos from '../../../data/brand-logos.json';
 
 export function getStaticPaths() {
   return catalog.brands.map((b) => ({ params: { slug: b.slug }, props: { brand: b } }));
@@ -10,10 +11,14 @@ export function getStaticPaths() {
 const { brand } = Astro.props;
 const products = catalog.products.filter((p) => p.brand_slug === brand.slug);
 const cleanedName = brand.name;
+const logoSvg = brandLogos[brand.slug]?.svg ?? '';
 ---
 <Layout title={cleanedName} description={`Perfumes ${cleanedName} en Mburucuyá Poty.`}>
-  <section class="hero" style="padding:2.5rem 0 2rem">
+  <section class="hero" style="padding:2rem 0">
     <div class="container">
+      {logoSvg && (
+        <div class="brand-logo-large" set:html={logoSvg}></div>
+      )}
       <div class="eyebrow">Marca</div>
       <h1>{cleanedName}</h1>
       <p>{products.length} perfumes disponibles</p>
@@ -31,3 +36,18 @@ const cleanedName = brand.name;
     </div>
   </section>
 </Layout>
+
+<style>
+.brand-logo-large {
+  display: flex; justify-content: center; align-items: center;
+  background: var(--color-surface);
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  max-width: 360px;
+  margin: 0 auto 1.5rem;
+}
+.brand-logo-large :global(svg) {
+  width: 100%; height: auto; max-height: 100px;
+}
+</style>
