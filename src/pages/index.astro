@@ -4,19 +4,31 @@ import ProductCard from '../components/ProductCard.astro';
 import catalog from '../../data/catalog-public.json';
 import { productCountForCategory } from '../lib/catalog';
 
-const featured = catalog.products.filter((p) => p.featured).slice(0, 12);
+const featured = catalog.products.filter((p) => p.featured).slice(0, 8);
 const waUrl = `https://wa.me/595985526379`;
 const catalogUrl = '/mburucuya-potypy/catalogo';
+
+// Use the first featured product's image as hero photo
+const heroPhoto = featured[0]?.image?.startsWith('data:') ? null : (featured[0]?.image || null);
 ---
 <Layout>
   <section class="hero">
-    <div class="container">
-      <div class="eyebrow">Exclusividad hecha flor</div>
-      <h1>Perfumes inspirados y originales para cada momento</h1>
-      <p>Más de {catalog.products.length} fragancias en stock permanente. Hacemos envíos a todo el Paraguay. Pedí por WhatsApp y te lo llevamos a tu casa.</p>
-      <div class="cta-row">
-        <a class="btn btn-primary" href={catalogUrl}>Ver catálogo completo</a>
-        <a class="btn btn-wa" href={waUrl} target="_blank" rel="noopener">📱 Pedir por WhatsApp</a>
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <div class="eyebrow">— Asunción, Paraguay · desde 2018 —</div>
+        <h1>Perfume es <em>memoria</em><br>que se puede llevar.</h1>
+        <p>Una curaduría honesta de fragancias originales e inspiradas, de las casas internacionales a las que vale la pena conocer. Envíos a todo el Paraguay.</p>
+        <div class="cta-row">
+          <a class="cta-primary" href={catalogUrl}>Ver catálogo</a>
+          <a class="cta-ghost" href={waUrl} target="_blank" rel="noopener">Pedir por WhatsApp</a>
+        </div>
+      </div>
+      <div class="image-col">
+        {heroPhoto && <div class="main"><img src={heroPhoto} alt="" /></div>}
+        <div class="badge">
+          <div class="num">{catalog.products.length}</div>
+          <div class="label">fragancias en stock</div>
+        </div>
       </div>
     </div>
   </section>
@@ -24,36 +36,34 @@ const catalogUrl = '/mburucuya-potypy/catalogo';
   <section class="section">
     <div class="container">
       <div class="section-title">
-        <div class="eyebrow">Categorías</div>
-        <h2>Explorá por tipo de fragancia</h2>
-        <p>Elegí la categoría que mejor te represente</p>
+        <div class="eyebrow">Familias olfativas</div>
+        <h2>Por estado de ánimo</h2>
+        <p>Ocho categorías curadas para encontrar tu próxima fragancia.</p>
       </div>
       <div class="category-grid">
         {catalog.categories.map((cat) => (
           <a class="category-card" href={`/mburucuya-potypy/categoria/${cat.slug}`}>
             <div class="photo"><img src={cat.image} alt={cat.name} loading="lazy" /></div>
-            <div class="info">
-              <div class="name">{cat.name}</div>
-              <div class="count">{productCountForCategory(catalog, cat.slug)} productos</div>
-            </div>
+            <div class="name">{cat.name}</div>
+            <div class="count">{productCountForCategory(catalog, cat.slug)} productos</div>
           </a>
         ))}
       </div>
     </div>
   </section>
 
-  <section class="section" style="background:var(--color-parchment)">
+  <section class="section">
     <div class="container">
-      <div class="section-title">
-        <div class="eyebrow">Nuestra selección</div>
-        <h2>Productos populares</h2>
-        <p>Los perfumes más vendidos de la tienda</p>
+      <div class="section-title header-row">
+        <div class="left">
+          <div class="eyebrow">Selección</div>
+          <h2>Nuestra pequeña boutique</h2>
+          <p>Las fragancias que nos tienen locos esta temporada.</p>
+        </div>
+        <a href={catalogUrl} class="view-all">Ver todas →</a>
       </div>
       <div class="featured-row">
         {featured.map((p) => <ProductCard product={p} />)}
-      </div>
-      <div style="text-align:center; margin-top:2rem">
-        <a class="btn btn-outline" href={catalogUrl}>Ver todos los perfumes →</a>
       </div>
     </div>
   </section>
@@ -63,23 +73,23 @@ const catalogUrl = '/mburucuya-potypy/catalogo';
       <div class="section-title">
         <div class="eyebrow">Simple</div>
         <h2>Cómo comprar</h2>
-        <p>Es fácil y rápido</p>
+        <p>Tres pasos, sin vueltas.</p>
       </div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));gap:1.5rem;text-align:center">
-        <div style="background:var(--color-surface);padding:1.6rem 1rem;border-radius:var(--radius-lg);border:1px solid var(--color-border)">
-          <div style="font-size:2.5rem">1️⃣</div>
-          <h3 style="font-size:1.05rem;margin:0.5rem 0">Elegí</h3>
-          <p style="margin:0;color:var(--color-text-muted);font-size:0.9rem">Agregá los perfumes al carrito o mirá el catálogo completo.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));gap:3rem;text-align:center">
+        <div>
+          <div style="font-family:var(--font-serif);font-size:3rem;color:var(--gold);line-height:1;margin-bottom:0.8rem">I</div>
+          <h3 style="font-family:var(--font-serif);font-size:1.2rem;margin-bottom:0.6rem">Elegí</h3>
+          <p style="margin:0;color:var(--ink-soft);font-size:0.92rem">Recorré el catálogo y agregá tus fragancias al pedido.</p>
         </div>
-        <div style="background:var(--color-surface);padding:1.6rem 1rem;border-radius:var(--radius-lg);border:1px solid var(--color-border)">
-          <div style="font-size:2.5rem">2️⃣</div>
-          <h3 style="font-size:1.05rem;margin:0.5rem 0">Enviá</h3>
-          <p style="margin:0;color:var(--color-text-muted);font-size:0.9rem">Mandanos tu pedido por WhatsApp con un solo click.</p>
+        <div>
+          <div style="font-family:var(--font-serif);font-size:3rem;color:var(--gold);line-height:1;margin-bottom:0.8rem">II</div>
+          <h3 style="font-family:var(--font-serif);font-size:1.2rem;margin-bottom:0.6rem">Enviá</h3>
+          <p style="margin:0;color:var(--ink-soft);font-size:0.92rem">Mandanos el pedido por WhatsApp con un solo click.</p>
         </div>
-        <div style="background:var(--color-surface);padding:1.6rem 1rem;border-radius:var(--radius-lg);border:1px solid var(--color-border)">
-          <div style="font-size:2.5rem">3️⃣</div>
-          <h3 style="font-size:1.05rem;margin:0.5rem 0">Recibí</h3>
-          <p style="margin:0;color:var(--color-text-muted);font-size:0.9rem">Te lo enviamos a cualquier punto del Paraguay.</p>
+        <div>
+          <div style="font-family:var(--font-serif);font-size:3rem;color:var(--gold);line-height:1;margin-bottom:0.8rem">III</div>
+          <h3 style="font-family:var(--font-serif);font-size:1.2rem;margin-bottom:0.6rem">Recibí</h3>
+          <p style="margin:0;color:var(--ink-soft);font-size:0.92rem">Te lo enviamos a cualquier punto del Paraguay.</p>
         </div>
       </div>
     </div>
