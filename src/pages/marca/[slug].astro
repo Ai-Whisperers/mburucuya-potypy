@@ -12,8 +12,8 @@ const { brand } = Astro.props;
 const products = catalog.products.filter((p) => p.brand_slug === brand.slug);
 const cleanedName = brand.name;
 const logoSvg = brandLogos[brand.slug]?.svg ?? '';
-const baseUrl = import.meta.env.BASE_URL;
-const heroImage = `${baseUrl}assets/brands/${brand.slug}.webp`;
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, ''); // strip trailing slash
+const heroImage = `${baseUrl}/assets/brands/${brand.slug}.webp`;
 ---
 <Layout title={cleanedName} description={`Perfumes ${cleanedName} en Mburucuyá Poty.`}>
   <section class="brand-hero">
