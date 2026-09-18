@@ -33,3 +33,5 @@ assets/raw/
 assets/*-render.png
 data/wholesale-perfumes-LOCAL.json
 data/wholesale-raw.json
+data/wholesale-perfumes-LOCAL.json
+data/catalog-public.json.local
