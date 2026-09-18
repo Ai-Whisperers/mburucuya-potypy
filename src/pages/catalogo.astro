@@ -9,6 +9,8 @@ const brand = url.searchParams.get('brand') ?? '';
 const gender = url.searchParams.get('gender') ?? '';
 const category = url.searchParams.get('category') ?? '';
 const sort = url.searchParams.get('sort') ?? 'name';
+const pageParam = parseInt(url.searchParams.get('page') ?? '1', 10);
+const PAGE_SIZE = 60;
 
 let products = [...catalog.products];
 if (search) {
@@ -24,17 +26,30 @@ if (sort === 'price-asc') products.sort((a, b) => a.retail_price_gs - b.retail_p
 else if (sort === 'price-desc') products.sort((a, b) => b.retail_price_gs - a.retail_price_gs);
 else products.sort((a, b) => a.name.localeCompare(b.name));
 
-const brandsTop = catalog.brands.slice(0, 50); // most-populated first
+const totalPages = Math.max(1, Math.ceil(products.length / PAGE_SIZE));
+const page = Math.min(Math.max(1, pageParam), totalPages);
+const start = (page - 1) * PAGE_SIZE;
+const end = start + PAGE_SIZE;
+const pageProducts = products.slice(start, end);
+
 const allBrands = catalog.brands;
+
+function pageHref(p: number) {
+  const params = new URLSearchParams(url.searchParams);
+  params.set('page', String(p));
+  return `?${params.toString()}`;
+}
 ---
-<Layout title="Catálogo completo" description="Todos nuestros perfumes: originales e inspirados. Filtrá por marca, género o tamaño.">
+<Layout title="Catálogo completo" description="Todos nuestros perfumes: originales e inspirados. Filtrá por marca, género o categoría.">
+  <section class="hero" style="padding:2.5rem 0 2rem">
+    <div class="container">
+      <div class="eyebrow">{products.length} fragancias disponibles</div>
+      <h1 style="font-size:2.2rem;margin-bottom:0.4rem">Catálogo completo</h1>
+      <p>Originales e inspirados de las mejores casas internacionales. Filtrá por marca, categoría o género.</p>
+    </div>
+  </section>
   <section class="section">
     <div class="container">
-      <div class="section-title">
-        <h2>Catálogo completo</h2>
-        <p>{products.length} perfumes · Encontrá tu próxima fragancia</p>
-      </div>
-
       <form class="filters" method="get">
         <input type="search" name="q" placeholder="Buscar perfume o marca…" value={search} />
         <select name="category">
@@ -59,12 +74,14 @@ const allBrands = catalog.brands;
       </form>
 
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:0.6rem">
-        <div style="font-size:0.88rem;color:var(--color-text-muted)">{products.length} resultados</div>
-        <div style="display:flex;gap:0.4rem;align-items:center;font-size:0.85rem">
+        <div style="font-size:0.88rem;color:var(--color-text-muted)">
+          {products.length === 0 ? 'Sin resultados' : `Mostrando ${start+1}-${Math.min(end, products.length)} de ${products.length}`}
+        </div>
+        <div style="display:flex;gap:0.4rem;align-items:center;font-size:0.85rem;flex-wrap:wrap">
           <span style="color:var(--color-text-muted)">Ordenar:</span>
-          <a href={`?${new URLSearchParams({ ...Object.fromEntries(url.searchParams), sort: 'name' })}`} class={sort === 'name' ? 'btn btn-sm btn-primary' : 'btn btn-sm btn-outline'}>A-Z</a>
-          <a href={`?${new URLSearchParams({ ...Object.fromEntries(url.searchParams), sort: 'price-asc' })}`} class={sort === 'price-asc' ? 'btn btn-sm btn-primary' : 'btn btn-sm btn-outline'}>Precio ↑</a>
-          <a href={`?${new URLSearchParams({ ...Object.fromEntries(url.searchParams), sort: 'price-desc' })}`} class={sort === 'price-desc' ? 'btn btn-sm btn-primary' : 'btn btn-sm btn-outline'}>Precio ↓</a>
+          <a href={pageHref(1).replace(/[?&]sort=[^&]+/, (m) => m).split('?')[0] + (sort === 'name' ? '' : `?sort=name`)} class={sort === 'name' ? 'btn btn-sm btn-primary' : 'btn btn-sm btn-outline'}>A-Z</a>
+          <a href={(() => { const p = new URLSearchParams(url.searchParams); p.set('sort','price-asc'); p.delete('page'); return '?'+p.toString(); })()} class={sort === 'price-asc' ? 'btn btn-sm btn-primary' : 'btn btn-sm btn-outline'}>Precio ↑</a>
+          <a href={(() => { const p = new URLSearchParams(url.searchParams); p.set('sort','price-desc'); p.delete('page'); return '?'+p.toString(); })()} class={sort === 'price-desc' ? 'btn btn-sm btn-primary' : 'btn btn-sm btn-outline'}>Precio ↓</a>
         </div>
       </div>
 
@@ -75,13 +92,19 @@ const allBrands = catalog.brands;
         </div>
       ) : (
         <div class="product-grid">
-          {products.slice(0, 120).map((p) => <ProductCard product={p} />)}
+          {pageProducts.map((p) => <ProductCard product={p} />)}
         </div>
       )}
-      {products.length > 120 && (
-        <p style="text-align:center;color:var(--color-text-muted);margin-top:1rem">
-          Mostrando los primeros 120 de {products.length}. Refiná tu búsqueda para ver más.
-        </p>
+
+      {totalPages > 1 && (
+        <div class="pagination">
+          <a href={pageHref(Math.max(1, page-1))} class={page === 1 ? 'disabled' : ''}>← Anterior</a>
+          {Array.from({ length: totalPages }, (_, i) => i + 1).slice(Math.max(0, page-3), Math.min(totalPages, page+2)).map((p) => (
+            <a href={pageHref(p)} class={p === page ? 'current' : ''}>{p}</a>
+          ))}
+          <span style="border:none;background:none;color:var(--color-text-muted)">de {totalPages}</span>
+          <a href={pageHref(Math.min(totalPages, page+1))} class={page === totalPages ? 'disabled' : ''}>Siguiente →</a>
+        </div>
       )}
     </div>
   </section>
