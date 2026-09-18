@@ -31,3 +31,5 @@ Thumbs.db
 # don't commit render previews
 assets/raw/
 assets/*-render.png
+data/wholesale-perfumes-LOCAL.json
+data/wholesale-raw.json
