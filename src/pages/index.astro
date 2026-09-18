@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import ProductCard from '../components/ProductCard.astro';
 import catalog from '../../data/catalog-public.json';
-import { productCountForCategory, formatGs } from '../lib/catalog';
+import { productCountForCategory } from '../lib/catalog';
 
 const featured = catalog.products.filter((p) => p.featured).slice(0, 12);
 const waUrl = `https://wa.me/595985526379`;
@@ -24,16 +24,18 @@ const catalogUrl = '/mburucuya-potypy/catalogo';
   <section class="section">
     <div class="container">
       <div class="section-title">
-        <h2>Explorá por categoría</h2>
-        <p>Elegí el tipo de fragancia que buscás</p>
+        <div class="eyebrow">Categorías</div>
+        <h2>Explorá por tipo de fragancia</h2>
+        <p>Elegí la categoría que mejor te represente</p>
       </div>
       <div class="category-grid">
         {catalog.categories.map((cat) => (
           <a class="category-card" href={`/mburucuya-potypy/categoria/${cat.slug}`}>
-            <span class="icon">{cat.icon}</span>
-            <span class="name">{cat.name}</span>
-            <span class="count">{productCountForCategory(catalog, cat.slug)} productos</span>
-            <span class="desc">{cat.desc}</span>
+            <div class="photo"><img src={cat.image} alt={cat.name} loading="lazy" /></div>
+            <div class="info">
+              <div class="name">{cat.name}</div>
+              <div class="count">{productCountForCategory(catalog, cat.slug)} productos</div>
+            </div>
           </a>
         ))}
       </div>
@@ -43,10 +45,11 @@ const catalogUrl = '/mburucuya-potypy/catalogo';
   <section class="section" style="background:var(--color-parchment)">
     <div class="container">
       <div class="section-title">
-        <h2>Destacados</h2>
-        <p>Nuestra selección de la semana</p>
+        <div class="eyebrow">Nuestra selección</div>
+        <h2>Productos populares</h2>
+        <p>Los perfumes más vendidos de la tienda</p>
       </div>
-      <div class="product-grid">
+      <div class="featured-row">
         {featured.map((p) => <ProductCard product={p} />)}
       </div>
       <div style="text-align:center; margin-top:2rem">
@@ -58,6 +61,7 @@ const catalogUrl = '/mburucuya-potypy/catalogo';
   <section class="section">
     <div class="container">
       <div class="section-title">
+        <div class="eyebrow">Simple</div>
         <h2>Cómo comprar</h2>
         <p>Es fácil y rápido</p>
       </div>
