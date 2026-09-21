@@ -1450,7 +1450,7 @@
       "wholesale_price_usd": 56.1,
       "retail_price_gs": 510000,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgA%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%232E7D5C%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232E7D5C%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botA%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgA%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botA%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%232E7D5C%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%232E7D5C%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EA%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%232E7D5C%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
-      "featured": true
+      "featured": false
     },
     {
       "id": "armani-ar-acqua-di-gio-masc-edt-100ml",
@@ -2334,7 +2334,7 @@
       "wholesale_price_usd": 53.1,
       "retail_price_gs": 490000,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgB%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231B2A4A%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231B2A4A%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botB%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgB%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botB%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%231B2A4A%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%231B2A4A%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EB%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%231B2A4A%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
-      "featured": true
+      "featured": false
     },
     {
       "id": "burberry-burberry-londom-masc-100ml",
@@ -2568,7 +2568,7 @@
       "wholesale_price_usd": 64.1,
       "retail_price_gs": 570000,
       "image": "/mburucuya-potypy/products/mayorca-carolina-herrera-carolina-212-vip-black-100ml.jpeg",
-      "featured": false
+      "featured": true
     },
     {
       "id": "carolina-herrera-carolina-212-vip-black-50ml",
@@ -2633,7 +2633,7 @@
       "wholesale_price_usd": 80.1,
       "retail_price_gs": 685000,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgCH%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botCH%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgCH%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botCH%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3ECH%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%231E5C2E%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
-      "featured": true
+      "featured": false
     },
     {
       "id": "carolina-herrera-carolina-212-vip-party-fever-f-80ml-edt",
@@ -2984,7 +2984,7 @@
       "wholesale_price_usd": 20.5,
       "retail_price_gs": 250000,
       "image": "/mburucuya-potypy/products/santi-calvin-klein-ck-be.jpeg",
-      "featured": false
+      "featured": true
     },
     {
       "id": "calvin-klein-ck-be-200ml-edt",
@@ -3868,7 +3868,7 @@
       "wholesale_price_usd": 54.6,
       "retail_price_gs": 500000,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgDG%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%235C1A5C%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235C1A5C%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botDG%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23F6D62F%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23F6D62F%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23F6D62F%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgDG%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botDG%29%22%20stroke%3D%22%23F6D62F%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23F6D62F%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23F6D62F%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%235C1A5C%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%235C1A5C%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23F6D62F%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EDG%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23F6D62F%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%235C1A5C%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
-      "featured": true
+      "featured": false
     },
     {
       "id": "dolce-gabbana-dolce-g-k-edt-masc-100ml",
@@ -3933,7 +3933,7 @@
       "wholesale_price_usd": 67.1,
       "retail_price_gs": 590000,
       "image": "/mburucuya-potypy/products/mayorca-dolce-gabbana-dolce-g-light-blue-100ml.jpeg",
-      "featured": false
+      "featured": true
     },
     {
       "id": "dolce-gabbana-dolce-g-light-blue-100ml-imp-nuev",
@@ -3985,7 +3985,7 @@
       "wholesale_price_usd": 54.1,
       "retail_price_gs": 495000,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgDG%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%235C1A5C%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235C1A5C%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botDG%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23F6D62F%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23F6D62F%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23F6D62F%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgDG%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botDG%29%22%20stroke%3D%22%23F6D62F%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23F6D62F%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23F6D62F%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%235C1A5C%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%235C1A5C%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23F6D62F%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EDG%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23F6D62F%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%235C1A5C%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
-      "featured": true
+      "featured": false
     },
     {
       "id": "dolce-gabbana-dolce-g-masc-125ml",
@@ -4388,7 +4388,7 @@
       "wholesale_price_usd": 53.8,
       "retail_price_gs": 495000,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgG%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%232E7D5C%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232E7D5C%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botG%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgG%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botG%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%232E7D5C%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%232E7D5C%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EG%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%232E7D5C%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
-      "featured": true
+      "featured": false
     },
     {
       "id": "givenchy-giv-ange-ou-demon-edp-fem-100ml",
@@ -4986,7 +4986,7 @@
       "wholesale_price_usd": 54.1,
       "retail_price_gs": 495000,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgIM%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%232E7D5C%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232E7D5C%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botIM%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgIM%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botIM%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%232E7D5C%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%232E7D5C%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EIM%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%232E7D5C%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
-      "featured": true
+      "featured": false
     },
     {
       "id": "issey-miyake-issey-miyake-fem-edt-100ml",
@@ -5389,7 +5389,7 @@
       "wholesale_price_usd": 59.1,
       "retail_price_gs": 530000,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgJML%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%233D0A3D%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%233D0A3D%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botJML%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgJML%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botJML%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%233D0A3D%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%233D0A3D%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EJML%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%233D0A3D%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
-      "featured": true
+      "featured": false
     },
     {
       "id": "jo-milano-jo-milano-spades-house-100ml",
@@ -6390,7 +6390,7 @@
       "wholesale_price_usd": 79.1,
       "retail_price_gs": 675000,
       "image": "/mburucuya-potypy/products/mayorca-mancera-mancera-instant-crush-edp-120ml.jpeg",
-      "featured": true
+      "featured": false
     },
     {
       "id": "kits-master-parfum-rome-feme-100ml",
@@ -7586,7 +7586,7 @@
       "wholesale_price_usd": 55.1,
       "retail_price_gs": 500000,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgPR%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%235C2E1A%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235C2E1A%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botPR%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgPR%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botPR%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%235C2E1A%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%235C2E1A%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EPR%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%235C2E1A%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
-      "featured": true
+      "featured": false
     },
     {
       "id": "paco-rabanne-paco-r-xs-black-masc-100ml",
@@ -7638,7 +7638,7 @@
       "wholesale_price_usd": 234.0,
       "retail_price_gs": 1810000,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgPDM%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botPDM%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgPDM%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botPDM%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EPDM%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%231E5C2E%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
-      "featured": false
+      "featured": true
     },
     {
       "id": "parfums-de-marly-parfums-d-marly-meliora-edp-75ml",
@@ -9302,7 +9302,7 @@
       "wholesale_price_usd": 183.1,
       "retail_price_gs": 1435000,
       "image": "/mburucuya-potypy/products/santi-tom-ford-ombre-leather.jpeg",
-      "featured": false
+      "featured": true
     },
     {
       "id": "tommy-tommy-fem-100ml-edt",
@@ -9640,7 +9640,7 @@
       "wholesale_price_usd": 54.1,
       "retail_price_gs": 495000,
       "image": "/mburucuya-potypy/products/santi-versace-dylan-purple.jpeg",
-      "featured": true
+      "featured": false
     },
     {
       "id": "versace-versace-dylan-turquoise-edt-feme-100ml-8",
@@ -9653,7 +9653,7 @@
       "wholesale_price_usd": 55.1,
       "retail_price_gs": 500000,
       "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgV%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%221%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22botV%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.5%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2260%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23D4A017%22%20stop-opacity%3D%220.6%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22400%22%20fill%3D%22url%28%23bgV%29%22/%3E%0A%20%20%3Crect%20x%3D%22135%22%20y%3D%22150%22%20width%3D%22130%22%20height%3D%22200%22%20rx%3D%2214%22%20fill%3D%22url%28%23botV%29%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%222%22%20opacity%3D%220.95%22/%3E%0A%20%20%3Crect%20x%3D%22175%22%20y%3D%22125%22%20width%3D%2250%22%20height%3D%2230%22%20rx%3D%223%22%20fill%3D%22%23D4A017%22%20opacity%3D%220.7%22/%3E%0A%20%20%3Crect%20x%3D%22165%22%20y%3D%2295%22%20width%3D%2270%22%20height%3D%2235%22%20rx%3D%224%22%20fill%3D%22%23D4A017%22/%3E%0A%20%20%3Crect%20x%3D%22170%22%20y%3D%22100%22%20width%3D%2260%22%20height%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.4%22/%3E%0A%20%20%3Crect%20x%3D%22150%22%20y%3D%22220%22%20width%3D%22100%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22%231E5C2E%22%20opacity%3D%220.92%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2218%22%20font-weight%3D%22700%22%20fill%3D%22%23D4A017%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%222%22%3EV%3C/text%3E%0A%20%20%3Cline%20x1%3D%22170%22%20y1%3D%22262%22%20x2%3D%22230%22%20y2%3D%22262%22%20stroke%3D%22%23D4A017%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22282%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%229%22%20fill%3D%22%231E5C2E%22%20text-anchor%3D%22middle%22%20opacity%3D%220.8%22%3EPARFUM%3C/text%3E%0A%20%20%3Crect%20x%3D%22148%22%20y%3D%22155%22%20width%3D%2214%22%20height%3D%22190%22%20rx%3D%226%22%20fill%3D%22white%22%20opacity%3D%220.08%22/%3E%0A%3C/svg%3E",
-      "featured": true
+      "featured": false
     },
     {
       "id": "versace-versace-eau-fraiche-masc-100ml-edt-50003",
@@ -9692,7 +9692,7 @@
       "wholesale_price_usd": 64.1,
       "retail_price_gs": 570000,
       "image": "/mburucuya-potypy/products/mayorca-versace-versace-eros-flame-200ml.jpeg",
-      "featured": false
+      "featured": true
     },
     {
       "id": "versace-versace-eros-flame-masc-edp-100ml",
@@ -9926,7 +9926,7 @@
       "wholesale_price_usd": 11.0,
       "retail_price_gs": 180000,
       "image": "/mburucuya-potypy/products/santi-lattafa-asad.jpeg",
-      "featured": false
+      "featured": true
     },
     {
       "id": "lattafa-asad-bourbon-edp-100ml",
@@ -10095,7 +10095,7 @@
       "wholesale_price_usd": 110.0,
       "retail_price_gs": 905000,
       "image": "/mburucuya-potypy/products/santi-xerjoff-erba-gold.jpeg",
-      "featured": false
+      "featured": true
     },
     {
       "id": "xerjoff-erba-pura-edp-100ml",
@@ -10134,7 +10134,7 @@
       "wholesale_price_usd": 11.0,
       "retail_price_gs": 180000,
       "image": "/mburucuya-potypy/products/santi-rasasi-hawas.jpeg",
-      "featured": false
+      "featured": true
     },
     {
       "id": "rasasi-hawas-thunder-edp-100ml",
@@ -10263,7 +10263,7 @@
       "wholesale_price_usd": 13.5,
       "retail_price_gs": 200000,
       "image": null,
-      "featured": false,
+      "featured": true,
       "id": "armaf-club-de-nuit-iconic-parfum"
     },
     {
@@ -10341,7 +10341,7 @@
       "wholesale_price_usd": 145.0,
       "retail_price_gs": 1160000,
       "image": null,
-      "featured": false,
+      "featured": true,
       "id": "chanel-bleu-de-chanel-l-exclusif-parfum"
     },
     {
@@ -10445,7 +10445,7 @@
       "wholesale_price_usd": 80.0,
       "retail_price_gs": 685000,
       "image": null,
-      "featured": false,
+      "featured": true,
       "id": "hermes-terre-d-herm-s-eau-de-toilette"
     },
     {
