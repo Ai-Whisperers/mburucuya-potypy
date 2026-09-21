@@ -43,7 +43,10 @@
     .modal-body { padding: 1rem; }
     .form-group { margin-bottom: 1rem; }
     .form-group label { display: block; font-size: 0.85rem; margin-bottom: 0.3rem; color: #666; }
-    .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px; font-size: 0.9rem; }
+    .form-group input[type="file"] { padding: 0.3rem; }
+    .form-group input[type="file"]::file-selector-button { padding: 0.3rem 0.6rem; background: #e0e0e0; border: none; border-radius: 4px; cursor: pointer; margin-right: 0.5rem; }
+    .image-preview { margin-top: 0.5rem; }
+    .image-preview img { max-width: 150px; max-height: 150px; border-radius: 4px; border: 1px solid #ddd; }
     .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
     .modal-footer { padding: 1rem; border-top: 1px solid #eee; display: flex; justify-content: flex-end; gap: 0.5rem; }
     .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
@@ -73,7 +76,7 @@
         <button onclick="searchProducts()">Buscar</button>
       </div>
       <div class="actions">
-        <button class="btn btn-primary" onclick="openProductModal()">+ Nuevo Producto</button>
+        <button class="btn btn-primary" onclick="saveToGitHub()">💾 Guardar al Sitio</button>
         <button class="btn btn-secondary" onclick="exportCatalog()">📥 Exportar JSON</button>
       </div>
       <div class="stats" id="product-stats"></div>
@@ -143,6 +146,9 @@
           <div class="form-group">
             <label>URL de Imagen</label>
             <input type="text" id="product-image" placeholder="/mburucuya-potypy/products/...">
+            <div id="product-image-preview" class="image-preview"></div>
+            <label style="margin-top:0.5rem;">O subir archivo (se convierte a URL)</label>
+            <input type="file" id="product-image-file" accept="image/*" onchange="handleImageUpload(this)">
           </div>
         </form>
       </div>
@@ -281,6 +287,7 @@
       editingProductId = null;
       document.getElementById('product-modal-title').textContent = 'Nuevo Producto';
       document.getElementById('product-form').reset();
+      document.getElementById('product-image-preview').innerHTML = '';
       document.getElementById('delete-product-btn').style.display = 'none';
       document.getElementById('product-modal').classList.add('active');
     }
@@ -297,6 +304,13 @@
       document.getElementById('product-category').value = p.category;
       document.getElementById('product-wholesale').value = p.wholesale_price_usd;
       document.getElementById('product-retail').value = p.retail_price_gs;
+      // Show current image
+      const preview = document.getElementById('product-image-preview');
+      if (p.image) {
+        preview.innerHTML = `<img src="${p.image}" style="max-width:150px;max-height:150px;border-radius:4px;">`;
+      } else {
+        preview.innerHTML = '';
+      }
       document.getElementById('product-image').value = p.image || '';
       document.getElementById('delete-product-btn').style.display = 'block';
       document.getElementById('product-modal').classList.add('active');
@@ -304,6 +318,23 @@
 
     function closeProductModal() {
       document.getElementById('product-modal').classList.remove('active');
+    }
+
+    // Handle image upload - convert to base64 data URL
+    let pendingImageData = null;
+    
+    function handleImageUpload(input) {
+      const file = input.files[0];
+      if (!file) return;
+      
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        pendingImageData = e.target.result;
+        document.getElementById('product-image').value = e.target.result;
+        document.getElementById('product-image-preview').innerHTML = 
+          `<img src="${e.target.result}" style="max-width:150px;max-height:150px;border-radius:4px;border:1px solid #ddd;">`;
+      };
+      reader.readAsDataURL(file);
     }
 
     function saveProduct() {
@@ -314,7 +345,13 @@
       const category = document.getElementById('product-category').value;
       const wholesale = parseFloat(document.getElementById('product-wholesale').value);
       const retail = parseInt(document.getElementById('product-retail').value);
-      const image = document.getElementById('product-image').value;
+      let image = document.getElementById('product-image').value;
+
+      // If we have base64 data, use it directly (will be stored inline in JSON)
+      // Otherwise use the URL as-is
+      if (!image) {
+        image = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect fill="#f0f0f0" width="400" height="400"/><text x="200" y="200" text-anchor="middle" fill="#999" font-size="20">' + brand + '</text></svg>');
+      }
 
       const brandSlug = brand.toLowerCase().replace(/[^a-z0-9]+/g, '-');
       const id = brandSlug + '-' + name.toLowerCase().replace(/[^a-z0-9]+/g, '-') + '-' + size + 'ml';
@@ -407,7 +444,17 @@
       renderBrands();
     }
 
-    // Export
+    // GitHub config - requires GitHub token setup
+    // For now: export JSON and send to Kyrian via WhatsApp
+    // TODO: wire up GitHub API for auto-deploy
+    
+    // Save to GitHub via serverless function (requires setup)
+    async function saveToGitHub() {
+      alert('📤 Descargá el JSON y enviamelo por WhatsApp para actualizar el sitio.');
+      exportCatalog();
+    }
+
+    // Export fallback
     function exportCatalog() {
       const data = JSON.stringify(catalog, null, 2);
       const blob = new Blob([data], { type: 'application/json' });
