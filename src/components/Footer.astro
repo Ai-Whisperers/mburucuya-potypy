@@ -1,0 +1,37 @@
+---
+import { site } from '../data/site.json';
+const waUrl = `https://wa.me/${site.whatsapp_number}`;
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="grid">
+      <div class="brand-block">
+        <h4>{site.name}</h4>
+        <p>{site.tagline}. Boutique de perfumes en Asunción. Curaduría honesta de fragancias originales e inspiradas, con atención personal por WhatsApp.</p>
+      </div>
+      <div>
+        <h4>Catálogo</h4>
+        <a href="/mburucuya-potypy/catalogo">Todos los perfumes</a>
+        <a href="/mburucuya-potypy/categoria/fragancia-femenina">Femenina</a>
+        <a href="/mburucuya-potypy/categoria/fragancia-masculina">Masculina</a>
+        <a href="/mburucuya-potypy/categoria/nicho-alta-perfumeria">Nicho & Alta</a>
+      </div>
+      <div>
+        <h4>Casas</h4>
+        <a href="/mburucuya-potypy/marca/dior">Dior</a>
+        <a href="/mburucuya-potypy/marca/versace">Versace</a>
+        <a href="/mburucuya-potypy/marca/tom-ford">Tom Ford</a>
+        <a href="/mburucuya-potypy/marca/lattafa">Lattafa</a>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <a href={waUrl} target="_blank" rel="noopener">WhatsApp · {site.whatsapp_display}</a>
+        <a href={site.instagram_url} target="_blank" rel="noopener">Instagram · @{site.instagram_handle}</a>
+        <a>🚚 {site.shipping}</a>
+      </div>
+    </div>
+    <div class="bottom">
+      © {new Date().getFullYear()} {site.name} · Hecho con cuidado en Paraguay
+    </div>
+  </div>
+</footer>

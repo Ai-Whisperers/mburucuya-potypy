@@ -1,0 +1,65 @@
+---
+import Layout from '../layouts/Layout.astro';
+import catalog from '../../data/catalog-public.json';
+import brandLogos from '../../data/brand-logos.json';
+
+const brands = catalog.brands.filter((b) => !['testers', 'kits'].includes(b.slug));
+---
+<Layout title="Marcas" description="Todas las marcas que distribuimos en Mburucuyá Poty.">
+  <section class="hero" style="padding:2.5rem 0 2rem">
+    <div class="container">
+      <div class="eyebrow">Nuestras casas</div>
+      <h1>Marcas</h1>
+      <p>{brands.length} casas disponibles · Originales y de nicho</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="brand-grid">
+        {brands.map((b) => (
+          <a class="brand-card brand-card-logo" href={`/mburucuya-potypy/marca/${b.slug}`}>
+            <div class="logo-wrap" set:html={brandLogos[b.slug]?.svg ?? ''}></div>
+            <div class="info">
+              <div class="name">{b.name}</div>
+              <div class="count">{b.product_count} perfumes</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+.brand-card-logo {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.brand-card-logo .logo-wrap {
+  background: var(--color-surface);
+  padding: 1.1rem;
+  display: flex; align-items: center; justify-content: center;
+  height: 110px;
+  border-bottom: 1px solid var(--color-border);
+}
+.brand-card-logo .logo-wrap :global(svg) {
+  max-height: 80px;
+  max-width: 80%;
+  width: auto; height: auto;
+}
+.brand-card-logo .info {
+  padding: 0.8rem 0.5rem;
+}
+.brand-card-logo .name {
+  font-family: var(--font-serif);
+  font-size: 0.92rem;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+.brand-card-logo .count {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
+</style>

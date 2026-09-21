@@ -1,0 +1,18 @@
+{
+  "fonts": {
+    "display": "Italiana",
+    "display_url": "https://fonts.googleapis.com/css2?family=Italiana&display=swap",
+    "body": "Manrope",
+    "body_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&display=swap",
+    "accent_italic": "Italiana",
+    "serif_body": "Italiana"
+  },
+  "palette": {
+    "ink": "#111111",
+    "ink_soft": "#7a7368",
+    "paper": "#ffffff",
+    "cream": "#f4efe6",
+    "gold": "#b89b6e",
+    "line": "#e0d8c8"
+  }
+}
