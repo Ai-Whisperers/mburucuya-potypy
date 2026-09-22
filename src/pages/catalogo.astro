@@ -1,0 +1,238 @@
+---
+import Layout from '../layouts/Layout.astro';
+import catalog from '../../data/catalog-public.json';
+
+const allProducts = catalog.products;
+const brands = catalog.brands.filter((b) => !['testers', 'kits'].includes(b.slug));
+---
+<Layout title="Catálogo completo" description="Todos nuestros perfumes: originales e inspirados. Filtrá por marca, categoría o género.">
+  <section class="hero" style="padding:2.5rem 0 2rem">
+    <div class="container">
+      <div class="eyebrow" id="result-count">{catalog.products.length} fragancias disponibles</div>
+      <h1 style="font-size:2.2rem;margin-bottom:0.4rem">Catálogo completo</h1>
+      <p>Originales e inspirados de las mejores casas internacionales. Filtrá por marca, categoría o género.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <form id="filters" class="filters" onsubmit="return false">
+        <input type="search" id="f-q" placeholder="Buscar perfume o marca…" />
+        <select id="f-cat">
+          <option value="">Todas las categorías</option>
+          {catalog.categories.map((c) => <option value={c.slug}>{c.name}</option>)}
+        </select>
+        <select id="f-gender">
+          <option value="">Todos los géneros</option>
+          <option value="femme">Mujer</option>
+          <option value="homme">Hombre</option>
+          <option value="unisex">Unisex</option>
+        </select>
+        <select id="f-brand">
+          <option value="">Todas las marcas</option>
+          {brands.map((b) => <option value={b.slug}>{b.name}</option>)}
+        </select>
+        <select id="f-sort">
+          <option value="name">Ordenar A-Z</option>
+          <option value="price-asc">Precio ↑</option>
+          <option value="price-desc">Precio ↓</option>
+        </select>
+      </form>
+
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:0.6rem">
+        <div id="result-summary" style="font-size:0.88rem;color:var(--color-text-muted)">Cargando catálogo…</div>
+        <button id="clear-filters" class="btn btn-sm btn-outline" style="display:none">Limpiar filtros</button>
+      </div>
+
+      <div id="product-grid" class="product-grid"></div>
+
+      <div id="pagination" class="pagination"></div>
+
+      <div id="empty-state" class="empty" style="display:none">
+        <p>😕 No encontramos perfumes con esos filtros.</p>
+        <button class="btn btn-outline" onclick="window.location.search=''">Limpiar filtros</button>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ allProducts }}>
+    const CATALOG = allProducts;
+    const PAGE_SIZE = 60;
+
+    function readUrl() {
+      const sp = new URLSearchParams(window.location.search);
+      return {
+        q: sp.get('q') || '',
+        cat: sp.get('cat') || '',
+        gender: sp.get('gender') || '',
+        brand: sp.get('brand') || '',
+        sort: sp.get('sort') || 'name',
+      };
+    }
+    function writeUrl(state) {
+      const sp = new URLSearchParams();
+      if (state.q) sp.set('q', state.q);
+      if (state.cat) sp.set('cat', state.cat);
+      if (state.gender) sp.set('gender', state.gender);
+      if (state.brand) sp.set('brand', state.brand);
+      if (state.sort && state.sort !== 'name') sp.set('sort', state.sort);
+      const qs = sp.toString();
+      const newUrl = qs ? '?' + qs : window.location.pathname;
+      window.history.replaceState(null, '', newUrl);
+    }
+
+    function applyFilters(state) {
+      let products = [...CATALOG];
+      if (state.q) {
+        const q = state.q.toLowerCase();
+        products = products.filter((p) =>
+          p.name.toLowerCase().includes(q) || p.brand.toLowerCase().includes(q)
+        );
+      }
+      if (state.cat) products = products.filter((p) => p.category === state.cat);
+      if (state.gender) products = products.filter((p) => p.gender === state.gender);
+      if (state.brand) products = products.filter((p) => p.brand_slug === state.brand);
+      if (state.sort === 'price-asc') products.sort((a, b) => a.retail_price_gs - b.retail_price_gs);
+      else if (state.sort === 'price-desc') products.sort((a, b) => b.retail_price_gs - a.retail_price_gs);
+      else products.sort((a, b) => a.name.localeCompare(b.name));
+      return products;
+    }
+
+    function esc(s) {
+      return String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+    function genderLabel(g) {
+      return g === 'homme' ? 'Hombre' : g === 'femme' ? 'Mujer' : 'Unisex';
+    }
+    function badgeFor(cat) {
+      return cat === 'testers' ? 'TESTER'
+        : cat === 'kits' ? 'KIT'
+        : cat === 'nicho-alta-perfumeria' ? 'NICHO'
+        : cat === 'perfume-infantil' ? 'KIDS'
+        : null;
+    }
+    function renderCard(p) {
+      const cleaned = esc(p.name);
+      const badge = badgeFor(p.category);
+      const meta = `<span class="size">${p.size_ml ? p.size_ml + ' ml' : ''}</span>${p.size_ml ? '<span class="dot">·</span>' : ''}<span class="gender">${genderLabel(p.gender)}</span>`;
+      const priceTxt = 'Gs ' + p.retail_price_gs.toLocaleString('es-PY');
+      const imgSrc = esc(p.image || '');
+      const img = `<img src="${imgSrc}" alt="${cleaned}" loading="lazy" />`;
+      const waText = encodeURIComponent(`Hola Mburucuyá Poty! Me interesa: ${cleaned}${p.size_ml ? ' (' + p.size_ml + 'ml)' : ''} — Gs ${p.retail_price_gs.toLocaleString('es-PY')}`);
+      return `
+        <article class="product-card">
+          <div class="photo">
+            ${badge ? `<span class="badge">${badge}</span>` : ''}
+            ${img}
+            <div class="photo-overlay">
+              <button class="btn btn-primary btn-sm" data-add-to-cart data-id="${esc(p.id)}" data-name="${cleaned}" data-size="${p.size_ml || ''}" data-price="${p.retail_price_gs}">Agregar al pedido</button>
+            </div>
+          </div>
+          <div class="body">
+            <div class="brand">${esc(p.brand)}</div>
+            <div class="name">${cleaned}</div>
+            <div class="meta">${meta}</div>
+            <div class="price-row">
+              <div class="price">${priceTxt}</div>
+              <a class="btn-icon wa" href="https://wa.me/595985526379?text=${waText}" target="_blank" rel="noopener" aria-label="Preguntar por WhatsApp">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>`;
+    }
+
+    function renderGrid() {
+      const state = readUrl();
+      document.getElementById('f-q').value = state.q;
+      document.getElementById('f-cat').value = state.cat;
+      document.getElementById('f-gender').value = state.gender;
+      document.getElementById('f-brand').value = state.brand;
+      document.getElementById('f-sort').value = state.sort;
+
+      const filtered = applyFilters(state);
+
+      const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+      const url = new URL(window.location.href);
+      const page = Math.min(Math.max(1, parseInt(url.searchParams.get('page') || '1', 10)), totalPages);
+      const start = (page - 1) * PAGE_SIZE;
+      const end = start + PAGE_SIZE;
+      const pageProducts = filtered.slice(start, end);
+
+      const summary = document.getElementById('result-summary');
+      if (filtered.length === 0) {
+        summary.textContent = 'Sin resultados';
+      } else {
+        summary.textContent = `Mostrando ${start+1}-${Math.min(end, filtered.length)} de ${filtered.length}`;
+      }
+      document.getElementById('clear-filters').style.display =
+        (state.q || state.cat || state.gender || state.brand) ? '' : 'none';
+
+      const grid = document.getElementById('product-grid');
+      const empty = document.getElementById('empty-state');
+      if (pageProducts.length === 0) {
+        grid.innerHTML = '';
+        empty.style.display = '';
+      } else {
+        empty.style.display = 'none';
+        grid.innerHTML = pageProducts.map(renderCard).join('');
+      }
+
+      const pag = document.getElementById('pagination');
+      if (totalPages > 1) {
+        const params = new URLSearchParams();
+        if (state.q) params.set('q', state.q);
+        if (state.cat) params.set('cat', state.cat);
+        if (state.gender) params.set('gender', state.gender);
+        if (state.brand) params.set('brand', state.brand);
+        if (state.sort && state.sort !== 'name') params.set('sort', state.sort);
+        function href(p) {
+          const p2 = new URLSearchParams(params);
+          p2.set('page', String(p));
+          return '?' + p2.toString();
+        }
+        const links = [];
+        links.push(`<a href="${href(Math.max(1, page-1))}" class="${page===1?'disabled':''}">← Anterior</a>`);
+        const start2 = Math.max(1, page-2);
+        const end2 = Math.min(totalPages, page+2);
+        for (let i = start2; i <= end2; i++) {
+          links.push(`<a href="${href(i)}" class="${i===page?'current':''}">${i}</a>`);
+        }
+        links.push(`<span style="border:none;background:none;color:var(--color-text-muted)">de ${totalPages}</span>`);
+        links.push(`<a href="${href(Math.min(totalPages, page+1))}" class="${page===totalPages?'disabled':''}">Siguiente →</a>`);
+        pag.innerHTML = links.join('');
+        pag.style.display = '';
+      } else {
+        pag.innerHTML = '';
+        pag.style.display = 'none';
+      }
+    }
+
+    let timer = null;
+    function onChange() {
+      const state = {
+        q: document.getElementById('f-q').value,
+        cat: document.getElementById('f-cat').value,
+        gender: document.getElementById('f-gender').value,
+        brand: document.getElementById('f-brand').value,
+        sort: document.getElementById('f-sort').value,
+      };
+      writeUrl(state);
+      renderGrid();
+    }
+    document.getElementById('filters').addEventListener('input', () => {
+      clearTimeout(timer);
+      timer = setTimeout(onChange, 200);
+    });
+    document.getElementById('filters').addEventListener('change', onChange);
+    document.getElementById('clear-filters').addEventListener('click', () => {
+      document.getElementById('f-q').value = '';
+      document.getElementById('f-cat').value = '';
+      document.getElementById('f-gender').value = '';
+      document.getElementById('f-brand').value = '';
+      document.getElementById('f-sort').value = 'name';
+      onChange();
+    });
+
+    renderGrid();
+  </script>
+</Layout>
