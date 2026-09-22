@@ -6,56 +6,56 @@
       "name": "Fragancia Femenina",
       "icon": "🌸",
       "desc": "Notas florales, dulces y orientales para ella",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%20300%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgfragancia-femenina%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%235C1A5C%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235C1A5C%22%20stop-opacity%3D%220.65%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22600%22%20height%3D%22300%22%20fill%3D%22url%28%23bgfragancia-femenina%29%22/%3E%0A%20%20%3Cg%20opacity%3D%220.18%22%20fill%3D%22%23F6D62F%22%3E%0A%20%20%20%20%3Crect%20x%3D%2240%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2280%22%20rx%3D%224%22/%3E%3Crect%20x%3D%2245%22%20y%3D%2290%22%20width%3D%2230%22%20height%3D%2212%22%20rx%3D%222%22/%3E%0A%20%20%20%20%3Crect%20x%3D%22500%22%20y%3D%22120%22%20width%3D%2250%22%20height%3D%22100%22%20rx%3D%226%22/%3E%3Crect%20x%3D%22510%22%20y%3D%22105%22%20width%3D%2230%22%20height%3D%2216%22%20rx%3D%222%22/%3E%0A%20%20%3C/g%3E%0A%20%20%3Ctext%20x%3D%22300%22%20y%3D%22195%22%20font-size%3D%22130%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%F0%9F%8C%B8%3C/text%3E%0A%3C/svg%3E"
+      "image": "/mburucuya-potypy/assets/categories/perfume-rosa.jpg"
     },
     {
       "slug": "fragancia-masculina",
       "name": "Fragancia Masculina",
       "icon": "🪵",
       "desc": "Aromáticas, amaderadas y frescas para él",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%20300%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgfragancia-masculina%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231B2A4A%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231B2A4A%22%20stop-opacity%3D%220.65%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22600%22%20height%3D%22300%22%20fill%3D%22url%28%23bgfragancia-masculina%29%22/%3E%0A%20%20%3Cg%20opacity%3D%220.18%22%20fill%3D%22%23D4A017%22%3E%0A%20%20%20%20%3Crect%20x%3D%2240%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2280%22%20rx%3D%224%22/%3E%3Crect%20x%3D%2245%22%20y%3D%2290%22%20width%3D%2230%22%20height%3D%2212%22%20rx%3D%222%22/%3E%0A%20%20%20%20%3Crect%20x%3D%22500%22%20y%3D%22120%22%20width%3D%2250%22%20height%3D%22100%22%20rx%3D%226%22/%3E%3Crect%20x%3D%22510%22%20y%3D%22105%22%20width%3D%2230%22%20height%3D%2216%22%20rx%3D%222%22/%3E%0A%20%20%3C/g%3E%0A%20%20%3Ctext%20x%3D%22300%22%20y%3D%22195%22%20font-size%3D%22130%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%F0%9F%AA%B5%3C/text%3E%0A%3C/svg%3E"
+      "image": "/mburucuya-potypy/assets/categories/perfume-madera.jpg"
     },
     {
       "slug": "fragancia-unisex",
       "name": "Fragancia Unisex",
       "icon": "✨",
       "desc": "Aromas para compartir",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%20300%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgfragancia-unisex%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%233D0A3D%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%233D0A3D%22%20stop-opacity%3D%220.65%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22600%22%20height%3D%22300%22%20fill%3D%22url%28%23bgfragancia-unisex%29%22/%3E%0A%20%20%3Cg%20opacity%3D%220.18%22%20fill%3D%22%23D4A017%22%3E%0A%20%20%20%20%3Crect%20x%3D%2240%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2280%22%20rx%3D%224%22/%3E%3Crect%20x%3D%2245%22%20y%3D%2290%22%20width%3D%2230%22%20height%3D%2212%22%20rx%3D%222%22/%3E%0A%20%20%20%20%3Crect%20x%3D%22500%22%20y%3D%22120%22%20width%3D%2250%22%20height%3D%22100%22%20rx%3D%226%22/%3E%3Crect%20x%3D%22510%22%20y%3D%22105%22%20width%3D%2230%22%20height%3D%2216%22%20rx%3D%222%22/%3E%0A%20%20%3C/g%3E%0A%20%20%3Ctext%20x%3D%22300%22%20y%3D%22195%22%20font-size%3D%22130%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%E2%9C%A8%3C/text%3E%0A%3C/svg%3E"
+      "image": "/mburucuya-potypy/assets/categories/perfume-unisex.jpg"
     },
     {
       "slug": "nicho-alta-perfumeria",
       "name": "Nicho & Alta Perfumería",
       "icon": "💎",
       "desc": "Casas exclusivas, ingredientes raros",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%20300%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgnicho-alta-perfumeria%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231E5C2E%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231E5C2E%22%20stop-opacity%3D%220.65%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22600%22%20height%3D%22300%22%20fill%3D%22url%28%23bgnicho-alta-perfumeria%29%22/%3E%0A%20%20%3Cg%20opacity%3D%220.18%22%20fill%3D%22%23F6D62F%22%3E%0A%20%20%20%20%3Crect%20x%3D%2240%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2280%22%20rx%3D%224%22/%3E%3Crect%20x%3D%2245%22%20y%3D%2290%22%20width%3D%2230%22%20height%3D%2212%22%20rx%3D%222%22/%3E%0A%20%20%20%20%3Crect%20x%3D%22500%22%20y%3D%22120%22%20width%3D%2250%22%20height%3D%22100%22%20rx%3D%226%22/%3E%3Crect%20x%3D%22510%22%20y%3D%22105%22%20width%3D%2230%22%20height%3D%2216%22%20rx%3D%222%22/%3E%0A%20%20%3C/g%3E%0A%20%20%3Ctext%20x%3D%22300%22%20y%3D%22195%22%20font-size%3D%22130%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%F0%9F%92%8E%3C/text%3E%0A%3C/svg%3E"
+      "image": "/mburucuya-potypy/assets/categories/perfume-lujo.jpg"
     },
     {
       "slug": "colonias",
       "name": "Colonias",
       "icon": "🧴",
       "desc": "Frescas, deportivas, para el día a día",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%20300%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgcolonias%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230E3B43%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230E3B43%22%20stop-opacity%3D%220.65%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22600%22%20height%3D%22300%22%20fill%3D%22url%28%23bgcolonias%29%22/%3E%0A%20%20%3Cg%20opacity%3D%220.18%22%20fill%3D%22%23D4A017%22%3E%0A%20%20%20%20%3Crect%20x%3D%2240%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2280%22%20rx%3D%224%22/%3E%3Crect%20x%3D%2245%22%20y%3D%2290%22%20width%3D%2230%22%20height%3D%2212%22%20rx%3D%222%22/%3E%0A%20%20%20%20%3Crect%20x%3D%22500%22%20y%3D%22120%22%20width%3D%2250%22%20height%3D%22100%22%20rx%3D%226%22/%3E%3Crect%20x%3D%22510%22%20y%3D%22105%22%20width%3D%2230%22%20height%3D%2216%22%20rx%3D%222%22/%3E%0A%20%20%3C/g%3E%0A%20%20%3Ctext%20x%3D%22300%22%20y%3D%22195%22%20font-size%3D%22130%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%F0%9F%A7%B4%3C/text%3E%0A%3C/svg%3E"
+      "image": "/mburucuya-potypy/assets/categories/colonia.jpg"
     },
     {
       "slug": "kits",
       "name": "Kits",
       "icon": "🎁",
       "desc": "Perfume + desodorante o body lotion",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%20300%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgkits%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%235C2E1A%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%235C2E1A%22%20stop-opacity%3D%220.65%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22600%22%20height%3D%22300%22%20fill%3D%22url%28%23bgkits%29%22/%3E%0A%20%20%3Cg%20opacity%3D%220.18%22%20fill%3D%22%23D4A017%22%3E%0A%20%20%20%20%3Crect%20x%3D%2240%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2280%22%20rx%3D%224%22/%3E%3Crect%20x%3D%2245%22%20y%3D%2290%22%20width%3D%2230%22%20height%3D%2212%22%20rx%3D%222%22/%3E%0A%20%20%20%20%3Crect%20x%3D%22500%22%20y%3D%22120%22%20width%3D%2250%22%20height%3D%22100%22%20rx%3D%226%22/%3E%3Crect%20x%3D%22510%22%20y%3D%22105%22%20width%3D%2230%22%20height%3D%2216%22%20rx%3D%222%22/%3E%0A%20%20%3C/g%3E%0A%20%20%3Ctext%20x%3D%22300%22%20y%3D%22195%22%20font-size%3D%22130%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%F0%9F%8E%81%3C/text%3E%0A%3C/svg%3E"
+      "image": "/mburucuya-potypy/assets/categories/kit-regalo.jpg"
     },
     {
       "slug": "testers",
       "name": "Testers",
       "icon": "🧪",
       "desc": "Formato tester, sin caja",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%20300%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgtesters%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%233D0A3D%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%233D0A3D%22%20stop-opacity%3D%220.65%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22600%22%20height%3D%22300%22%20fill%3D%22url%28%23bgtesters%29%22/%3E%0A%20%20%3Cg%20opacity%3D%220.18%22%20fill%3D%22%238E5B12%22%3E%0A%20%20%20%20%3Crect%20x%3D%2240%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2280%22%20rx%3D%224%22/%3E%3Crect%20x%3D%2245%22%20y%3D%2290%22%20width%3D%2230%22%20height%3D%2212%22%20rx%3D%222%22/%3E%0A%20%20%20%20%3Crect%20x%3D%22500%22%20y%3D%22120%22%20width%3D%2250%22%20height%3D%22100%22%20rx%3D%226%22/%3E%3Crect%20x%3D%22510%22%20y%3D%22105%22%20width%3D%2230%22%20height%3D%2216%22%20rx%3D%222%22/%3E%0A%20%20%3C/g%3E%0A%20%20%3Ctext%20x%3D%22300%22%20y%3D%22195%22%20font-size%3D%22130%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%F0%9F%A7%AA%3C/text%3E%0A%3C/svg%3E"
+      "image": "/mburucuya-potypy/assets/categories/testers.jpg"
     },
     {
       "slug": "perfume-infantil",
       "name": "Perfume Infantil",
       "icon": "🧸",
       "desc": "Suaves y divertidos para los más chicos",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%20300%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bgperfume-infantil%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%237B2D8E%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%237B2D8E%22%20stop-opacity%3D%220.65%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22600%22%20height%3D%22300%22%20fill%3D%22url%28%23bgperfume-infantil%29%22/%3E%0A%20%20%3Cg%20opacity%3D%220.18%22%20fill%3D%22%23F6D62F%22%3E%0A%20%20%20%20%3Crect%20x%3D%2240%22%20y%3D%22100%22%20width%3D%2240%22%20height%3D%2280%22%20rx%3D%224%22/%3E%3Crect%20x%3D%2245%22%20y%3D%2290%22%20width%3D%2230%22%20height%3D%2212%22%20rx%3D%222%22/%3E%0A%20%20%20%20%3Crect%20x%3D%22500%22%20y%3D%22120%22%20width%3D%2250%22%20height%3D%22100%22%20rx%3D%226%22/%3E%3Crect%20x%3D%22510%22%20y%3D%22105%22%20width%3D%2230%22%20height%3D%2216%22%20rx%3D%222%22/%3E%0A%20%20%3C/g%3E%0A%20%20%3Ctext%20x%3D%22300%22%20y%3D%22195%22%20font-size%3D%22130%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%F0%9F%A7%B8%3C/text%3E%0A%3C/svg%3E"
+      "image": "/mburucuya-potypy/assets/categories/infantil.jpg"
     }
   ],
   "brands": [
