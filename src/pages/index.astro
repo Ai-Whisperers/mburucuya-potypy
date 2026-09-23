@@ -6,10 +6,11 @@ import { productCountForCategory } from '../lib/catalog';
 
 const featured = catalog.products.filter((p) => p.featured).slice(0, 8);
 const waUrl = `https://wa.me/595985526379`;
-const catalogUrl = '/mburucuya-potypy/catalogo';
+const catalogUrl = import.meta.env.BASE_URL + '/catalogo';
 
 // Use the first featured product's image as hero photo
-const heroPhoto = featured[0]?.image?.startsWith('data:') ? null : (featured[0]?.image || null);
+const B = import.meta.env.BASE_URL;
+const heroPhoto = featured[0]?.image?.startsWith('data:') ? null : (featured[0]?.image ? B + featured[0].image : null);
 ---
 <Layout>
   <section class="hero">
@@ -42,8 +43,8 @@ const heroPhoto = featured[0]?.image?.startsWith('data:') ? null : (featured[0]?
       </div>
       <div class="category-grid">
         {catalog.categories.map((cat) => (
-          <a class="category-card" href={`/mburucuya-potypy/categoria/${cat.slug}`}>
-            <div class="photo"><img src={cat.image} alt={cat.name} loading="lazy" /></div>
+          <a class="category-card" href={`${import.meta.env.BASE_URL}/categoria/${cat.slug}`}>
+            <div class="photo"><img src={B + cat.image} alt={cat.name} loading="lazy" /></div>
             <div class="name">{cat.name}</div>
             <div class="count">{productCountForCategory(catalog, cat.slug)} productos</div>
           </a>

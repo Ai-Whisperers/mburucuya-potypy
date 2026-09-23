@@ -17,7 +17,7 @@ const brands = catalog.brands.filter((b) => !['testers', 'kits'].includes(b.slug
     <div class="container">
       <div class="brand-grid">
         {brands.map((b) => (
-          <a class="brand-card brand-card-logo" href={`/mburucuya-potypy/marca/${b.slug}`}>
+          <a class="brand-card brand-card-logo" href={`${import.meta.env.BASE_URL}/marca/${b.slug}`}>
             <div class="logo-wrap" set:html={brandLogos[b.slug]?.svg ?? ''}></div>
             <div class="info">
               <div class="name">{b.name}</div>

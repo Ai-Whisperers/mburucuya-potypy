@@ -13,11 +13,14 @@ const badge = product.category === 'testers' ? 'TESTER'
   : product.category === 'perfume-infantil' ? 'KIDS'
   : null;
 const genderLabel = product.gender === 'homme' ? 'Hombre' : product.gender === 'femme' ? 'Mujer' : 'Unisex';
+const imgSrc = product.image && product.image.startsWith('/')
+  ? import.meta.env.BASE_URL.replace(/\/$/, '') + product.image
+  : (product.image || '');
 ---
 <article class="product-card">
   <div class="photo">
     {badge && <span class="badge">{badge}</span>}
-    <img src={product.image} alt={cleaned} loading="lazy" />
+    <img src={imgSrc} alt={cleaned} loading="lazy" />
     <div class="photo-overlay">
       <button
         class="btn btn-primary btn-sm"

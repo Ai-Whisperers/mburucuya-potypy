@@ -5,18 +5,18 @@ const waUrl = `https://wa.me/${site.whatsapp_number}`;
 <header class="site-header">
   <div class="row">
     <nav class="nav-links left">
-      <a href="/mburucuya-potypy/catalogo">Catálogo</a>
-      <a href="/mburucuya-potypy/marcas">Marcas</a>
+      <a href={import.meta.env.BASE_URL + "/catalogo"} >Catálogo</a>
+      <a href={import.meta.env.BASE_URL + "/marcas"} >Marcas</a>
     </nav>
-    <a href="/mburucuya-potypy/" class="brand-link">
-      <img src="/mburucuya-potypy/assets/logo.svg" alt="Mburucuyá Poty" />
+    <a href={import.meta.env.BASE_URL + "/"}  class="brand-link">
+      <img src={import.meta.env.BASE_URL + "/assets/logo.svg"}  alt="Mburucuyá Poty" />
       <div>
         <div class="wordmark">Mburucuyá Poty</div>
         <div class="tagline">· perfumes curados ·</div>
       </div>
     </a>
     <nav class="nav-links right">
-      <a href="/mburucuya-potypy/contacto">Contacto</a>
+      <a href={import.meta.env.BASE_URL + "/contacto"} >Contacto</a>
       <a href={waUrl} target="_blank" rel="noopener" class="wa-btn">WhatsApp</a>
     </nav>
   </div>

@@ -145,7 +145,7 @@
           </div>
           <div class="form-group">
             <label>URL de Imagen</label>
-            <input type="text" id="product-image" placeholder="/mburucuya-potypy/products/...">
+            <input type="text" id="product-image" placeholder="/products/... (ej: /products/mi-perfume.jpg)">
             <div id="product-image-preview" class="image-preview"></div>
             <label style="margin-top:0.5rem;">O subir archivo (se convierte a URL)</label>
             <input type="file" id="product-image-file" accept="image/*" onchange="handleImageUpload(this)">
@@ -185,6 +185,7 @@
   </div>
 
   <script>
+  const ADMIN_BASE = location.pathname.includes('/mburucuya-potypy') ? '/mburucuya-potypy' : '';
     let catalog = { products: [], brands: [] };
     let editingProductId = null;
     let editingBrandSlug = null;
@@ -192,7 +193,7 @@
     // Load catalog
     async function loadCatalog() {
       try {
-        const resp = await fetch('/mburucuya-potypy/data/catalog-public.json');
+        const resp = await fetch(ADMIN_BASE + '/data/catalog-public.json');
         catalog = await resp.json();
         renderProducts();
         renderBrands();
@@ -219,7 +220,7 @@
       }
 
       list.innerHTML = products.map(p => {
-        const hasReal = p.image && p.image.startsWith('/mburucuya-potypy/products/');
+        const hasReal = p.image && (p.image.startsWith('/products/') || p.image.startsWith('/mburucuya-potypy/products/'));
         const imgSrc = hasReal ? p.image : 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"><rect fill="#eee" width="60" height="60"/><text x="30" y="35" text-anchor="middle" fill="#999" font-size="10">Sin foto</text></svg>';
         return `
           <div class="product-card">
@@ -257,7 +258,7 @@
     // Render stats
     function renderStats() {
       const total = catalog.products.length;
-      const withPhoto = catalog.products.filter(p => p.image && p.image.startsWith('/mburucuya-potypy/products/')).length;
+      const withPhoto = catalog.products.filter(p => p.image && (p.image.startsWith('/products/') || p.image.startsWith('/mburucuya-potypy/products/'))).length;
       const brands = catalog.brands.length;
 
       document.getElementById('product-stats').innerHTML = `
